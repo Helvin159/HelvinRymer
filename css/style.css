@@ -39,7 +39,7 @@
 }
 
 .paragraphc {
-	text-align: left;
+	text-align: center;
 	padding: 10px;
 	line-height: normal;
 	margin-left: 20px;
@@ -59,7 +59,7 @@
 #contactdetails li {
 	display: block;
 	padding: 10px;
-	text-align: left;
+	text-align: center;
 	border-bottom: 1px solid rgba(96, 95, 94, 0.2);
 	margin-bottom: 20px;
 }
