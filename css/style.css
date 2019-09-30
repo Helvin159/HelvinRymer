@@ -35,7 +35,7 @@
 
 #sendamessage {
 	display: inline-block;
-	width: 47%;
+	width: 40%;
 }
 
 .paragraphc {
@@ -78,7 +78,7 @@ font-size: 20px;
 
 #contactinfo {
 	display: inline-block;
-	width: 47%;
+	width: 40%;
 	height: auto;
 
 }
@@ -282,7 +282,6 @@ body {
 	.getintouch2{
 		margin-left: 12.5%;
 	}
-
 	#sendamessage{
 		width: 100%;
 	}
@@ -302,14 +301,12 @@ body {
 	#contact{
 		width:100%;
 	}
-	
 	#paragraph{
 		display:none;
 	}
 	footer{
 		font-size: 15px;
 	}
-	
 	body html {
 		width: 100%;
 		overflow-x: hidden;
