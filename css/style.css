@@ -80,7 +80,6 @@ font-size: 20px;
 	display: inline-block;
 	width: 40%;
 	height: auto;
-
 }
 
 #contactinfo h1 {}
@@ -165,7 +164,7 @@ font-size: 20px;
 }
 
 #mywork {
-	width: 100%;
+	width: 97%;
 	height: auto;
 	padding-top: 30px;
 	padding-right: 30px;
@@ -177,6 +176,7 @@ font-size: 20px;
 	display: inline;
 	width: 100%;
 	text-align: center;
+	margin-left: 0px;
 }
 
 
