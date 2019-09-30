@@ -205,6 +205,13 @@ font-size: 20px;
 
 }
 
+.introh2{
+	background-color: #2E2E3A;
+		color:#FAFAFF;
+	font-weight: 200;
+	margin-top: 0;
+}
+
 #intro h2 {
 	padding: 30px;
 }
@@ -227,6 +234,10 @@ hr {
 footer {
 	width: 100%;
 	font-size: 20px;
+	padding: 10px;
+	color:#FAFAFF;
+	background-color: #2E2E3A;
+	font-weight: 200;
 }
 
 html,
