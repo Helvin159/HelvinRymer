@@ -41,7 +41,7 @@
 .paragraphc {
 	text-align: left;
 	padding: 10px;
-	line-height: 1.5;
+	line-height: normal;
 	margin-left: 20px;
 	font-size: 20px;
 }
