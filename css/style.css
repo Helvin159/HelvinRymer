@@ -164,7 +164,7 @@ font-size: 20px;
 }
 
 #mywork {
-	width: 97%;
+	width: 95%;
 	height: auto;
 	padding-top: 30px;
 	padding-right: 30px;
@@ -182,9 +182,6 @@ font-size: 20px;
 
 /*Intro*/
 .introimages:hover {
-	transform: scale(1.2);
-	padding: 10px;
-	margin: 40px;
 	border: 2px solid rgba(96, 95, 94, 0.9);
 	border-radius: 10px;
 }
