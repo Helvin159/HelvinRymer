@@ -1,0 +1,307 @@
+* {
+	text-align: center;
+	font-family: sans-serif;
+	color:#605F5E;
+}
+
+/*Contact & Send A Message*/
+.submitbutton {
+	width: 45%;
+	font-size: 25px;
+}
+
+.textarea {
+	width: 100%;
+	height: 80px;
+	text-align: left;
+}
+
+.inputs {
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	text-align: left;
+}
+
+#form {
+	width: 47%;
+	padding: 20px;
+	margin-left: 23%;
+}
+
+#sendamessage h2 {
+	padding: 10px;
+}
+
+#sendamessage {
+	display: inline-block;
+	width: 47%;
+}
+
+.paragraphc {
+	text-align: left;
+	padding: 10px;
+	line-height: 1.5;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+#contactdetails a {
+	text-decoration: none;
+	color: #605F5E;
+}
+
+#contactdetails li:hover {
+	color: #FAFAFF;
+	background-color: rgba(46, 46, 58, 0.7);
+}
+
+#contactdetails li {
+	display: block;
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid rgba(96, 95, 94, 0.2);
+	margin-bottom: 20px;
+}
+
+#contactdetails {
+	line-height: 1.5;
+font-size: 20px;
+	width: 60%;
+
+}
+
+#contactinfo h2 {
+	padding: 20px;
+	width: 65%;
+}
+
+#contactinfo {
+	display: inline-block;
+	width: 47%;
+	height: auto;
+
+}
+
+#contactinfo h1 {}
+
+#contact {
+	display: inline;
+	width: 100%;
+}
+
+
+/*About Me Section*/
+.headshot {
+	width: 65%;
+	height: auto;
+	padding: 10px;
+	border: 2px solid rgba(96, 95, 94, 0.3);
+	border-radius: 5px;
+	margin-bottom: 0px;
+}
+
+#headshot1 {
+	display: inline-block;
+	height: auto;
+	width: 47%;
+	vertical-align: middle
+}
+
+#paragraph p {
+	width: 80%;
+	line-height: 1.5;
+	font-size: 20px;
+	font-weight: 340;
+	padding: 20px;
+	border: 2px solid rgba(96, 95, 94, 0.3);
+	border-radius: 5px;
+	text-align: justify;
+}
+
+#paragraph {
+	display: inline-block;
+	width: 47%;
+	height: auto;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+#aboutme h1 {
+	padding: 20px;
+
+}
+
+#aboutme {
+	display: inline;
+	width: 100%;
+	height: auto;
+}
+
+
+/*My Work Section*/
+#followme {
+	display: table-cell;
+	width: 30%;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+#workwithme {
+	display: table-cell;
+	width: 30%;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#hireme {
+	display: table-cell;
+	width: 30%;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#mywork {
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+
+#workdescript {
+	display: inline;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*Intro*/
+.introimages:hover {
+	transform: scale(1.2);
+	padding: 10px;
+	margin: 40px;
+	border: 2px solid rgba(96, 95, 94, 0.9);
+	border-radius: 10px;
+}
+
+.introimages {
+	padding: 10px;
+	margin: auto;
+}
+
+#featured h1 {
+	padding: 30px;
+
+}
+
+#featured {
+	width: 100%;
+	height: auto;
+
+}
+
+#intro h2 {
+	padding: 30px;
+}
+
+#intro h1 {
+	padding: 30px;
+
+}
+
+#intro {
+	width: 100%;
+}
+
+/*Universal*/
+hr {
+	max-width: 60%;
+	background-color: rgba(96, 95, 94, 0.1);
+}
+
+footer {
+	width: 100%;
+	font-size: 20px;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+
+/*Mobile Phone Code*/
+@media screen and (max-width:600px) {
+	#headshot1{
+		width:80%;
+	}
+	.submitbutton{
+		background-color: #605F5E;
+		color:#FAFAFF;
+		border-radius: 5px;
+	}
+	.textarea{
+		border:1px solid #2E2E3A;
+	}
+	.inputs{
+		border:1px solid #2E2E3A;
+		width: 20px;
+	}
+	#sendamessage form{
+		width: 100%;
+	}
+	#sendamessage input{
+		width: 100%;
+	}
+	.myworkh1{
+		margin-right: 16%;
+	}
+	.sendamessageh2{
+		margin-left:;
+	}
+	.getintouch2{
+		margin-left: 12.5%;
+	}
+
+	#sendamessage{
+		width: 100%;
+	}
+	#contactdetails li{
+		text-align: center;
+		margin-right: 10%;
+	}
+	#contactdetails{
+		width:100%;
+		text-align: center;
+
+	}
+	#contactinfo{
+		width: 100%;
+		
+	}
+	#contact{
+		width:100%;
+	}
+	
+	#paragraph{
+		display:none;
+	}
+	footer{
+		font-size: 15px;
+	}
+	
+	body html {
+		width: 100%;
+		overflow-x: hidden;
+
+	}
+}
