@@ -385,6 +385,7 @@ html{
 @media (max-width:600px) {
 	#headshot1{
 		width:80%;
+		
 	}
 	.submitbutton{
 		background-color: #605F5E;
@@ -435,6 +436,7 @@ html{
 		margin-left: 12.5%;
 	}
 	#sendamessage{
+		margin-left: 4%;
 		width: 100%;
 	}
 	#contactdetails li{
@@ -448,7 +450,10 @@ html{
 	}
 	#contactinfo{
 		width: 100%;
-		
+		margin-left: 3%;
+	}
+	#contact h1{
+		margin-left: 12%;
 	}
 	#contact{
 		width:100%;
@@ -456,20 +461,46 @@ html{
 	#paragraph{
 		display:none;
 	}
+	
+	.headshot{
+		margin-left: 20%;
+	}
+	#aboutme h1{
+		margin-left: 15%;
+	}
+	hr{
+		margin-left: 25%;
+	}
+	#workdescript h2,#workdescript p{
+		margin-left: 15%
+	}
+	#workdescript h1{
+		margin-left: 7%;
+	}
+	
+	#featuredimages{
+		margin-left: 3%;
+	}
+	#featured h1,#featured h2{
+		margin-left:20%;
+	}
 	#intro h1{
 		font-size: 50px;
 		padding: 10%;
 	}
 	#intro{
-		width: 100%;
+		width: 117%;
 		height:668px;
 		max-height: 736px;
+	
 		
 	}
 	footer{
+		width: 111%;
 		font-size: 15px;
 	}
 		body{
-		width: 375px;
+			width: 100%;
+			overflow-x: hidden;
 	}
 }
