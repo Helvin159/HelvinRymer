@@ -62,6 +62,7 @@
 	text-align: center;
 	border-bottom: 1px solid rgba(96, 95, 94, 0.2);
 	margin-bottom: 20px;
+	transition:250ms ease-out;
 }
 
 #contactdetails {
@@ -145,6 +146,7 @@ font-size: 20px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	padding-right: 20px;
+	vertical-align: middle;
 }
 
 #workwithme {
@@ -153,6 +155,7 @@ font-size: 20px;
 	padding-bottom: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	vertical-align: middle;
 }
 
 #hireme {
@@ -161,9 +164,11 @@ font-size: 20px;
 	padding-bottom: 30px;
 	padding-right: 30px;
 	padding-left: 30px;
+	vertical-align: middle;
 }
 
 #mywork {
+	display: table-caption;
 	width: 95%;
 	height: auto;
 	padding-top: 30px;
@@ -173,7 +178,8 @@ font-size: 20px;
 }
 
 #workdescript {
-	display: inline;
+	align-content: center;
+	display: table;
 	width: 100%;
 	text-align: center;
 	margin-left: 0px;
@@ -182,9 +188,10 @@ font-size: 20px;
 
 /*Intro*/
 .introimages:hover {
-	padding: 10px;
+	padding: 20px;
 	border: 2px solid rgba(96, 95, 94, 0.9);
 	border-radius: 10px;
+	transition: 350ms ease-in;
 }
 
 .introimages {
@@ -203,23 +210,30 @@ font-size: 20px;
 
 }
 
-.introh2{
-	background-color: #2E2E3A;
-		color:#FAFAFF;
-	font-weight: 200;
-	margin-top: 0;
+#intro h1:hover{
+	transition-property: all;
+	transform:scale(1.1);
 }
 
-#intro h2 {
-	padding: 30px;
+.introh2{
+	color:#FAFAFF;
+	font-weight: 200;
 }
 
 #intro h1 {
-	padding: 30px;
-
+	display:table-cell;
+	padding: 10.21%;
+	margin: auto;
+	font-size:110px;
+	line-height: 1.5;
+	vertical-align: middle;
+	transition: 450ms ease-out;
 }
 
 #intro {
+	display: table;
+	background-color: #2E2E3A;
+	height: 100%;
 	width: 100%;
 }
 
@@ -238,18 +252,25 @@ footer {
 	font-weight: 200;
 }
 
-html,
-body {
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
+body{
+	background-color: #FAFAFF;
 	margin: 0;
+	overflow-x: scroll;
 	overflow-x: hidden;
 }
 
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	
+}
 
-/*Mobile Phone Code*/
-@media screen and (max-width:600px) {
+
+/*iPad Code*/
+/*
+@media screen and (max-height:900px) {
+	
 	#headshot1{
 		width:80%;
 	}
@@ -271,7 +292,28 @@ body {
 	#sendamessage input{
 		width: 100%;
 	}
-	.myworkh1{
+	#hireme{
+		width: 95%;
+		padding: 1%;
+		margin:auto;
+		line-height: 1.5;
+		display: block;
+		font-weight: 400;
+	}
+	#workwithme{
+		width: 95%;
+		padding: 1%;
+		margin:auto;
+		display: block;
+	}
+	#followme{
+		width: 95%;
+		padding: 1%;
+		margin:auto;
+		display: block;
+	}
+	.mywork{
+		display: block;
 		margin-right: 16%;
 	}
 	.sendamessageh2{
@@ -302,12 +344,124 @@ body {
 	#paragraph{
 		display:none;
 	}
+	#intro h1{
+		font-size: 50px;
+		padding: 10%;
+	}
+	#intro{
+		height:100%;
+		width: 100%;
+	}
 	footer{
 		font-size: 15px;
 	}
-	body html {
+	body{
+		width: auto;
+		height: 404%;
+		overflow-x: scroll;
+		overflow-x: hidden;
+	}
+	
+	html {
+		overflow-x: hidden;
+	}
+}
+*/
+
+/*Phone Code*/
+@media screen and (max-width:600px) {
+	#headshot1{
+		width:80%;
+	}
+	.submitbutton{
+		background-color: #605F5E;
+		color:#FAFAFF;
+		border-radius: 5px;
+	}
+	.textarea{
+		border:1px solid #2E2E3A;
+	}
+	.inputs{
+		border:1px solid #2E2E3A;
+		width: 20px;
+	}
+	#sendamessage form{
+		width: 100%;
+	}
+	#sendamessage input{
+		width: 100%;
+	}
+	#hireme{
+		width: 95%;
+		padding: 1%;
+		margin:auto;
+		line-height: 1.5;
+		display: block;
+		font-weight: 400;
+	}
+	#workwithme{
+		width: 95%;
+		padding: 1%;
+		margin:auto;
+		display: block;
+	}
+	#followme{
+		width: 95%;
+		padding: 1%;
+		margin:auto;
+		display: block;
+	}
+	.mywork{
+		display: block;
+		margin-right: 16%;
+	}
+	.sendamessageh2{
+		margin-left:;
+	}
+	.getintouch2{
+		margin-left: 12.5%;
+	}
+	#sendamessage{
+		width: 100%;
+	}
+	#contactdetails li{
+		text-align: center;
+		margin-right: 10%;
+	}
+	#contactdetails{
+		width:100%;
+		text-align: center;
+
+	}
+	#contactinfo{
+		width: 100%;
+		
+	}
+	#contact{
+		width:100%;
+	}
+	#paragraph{
+		display:none;
+	}
+	#intro h1{
+		font-size: 50px;
+		padding: 10%;
+	}
+	#intro{
+		height:668px;
+		max-height: 736px;
+		
+	}
+	footer{
+		font-size: 15px;
+	}
+	body{
+		width: auto;
+		overflow-x: scroll;
+	}
+	
+	html {
 		width: 100%;
 		overflow-x: hidden;
-
 	}
 }
