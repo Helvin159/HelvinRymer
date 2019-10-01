@@ -14,6 +14,7 @@
 	width: 100%;
 	height: 80px;
 	text-align: left;
+	color:#000;
 }
 
 .inputs {
@@ -21,21 +22,29 @@
 	height: 30px;
 	font-size: 20px;
 	text-align: left;
+	color:#000;
 }
 
 #form {
-	width: 47%;
+	width: 90%;
 	padding: 20px;
-	margin-left: 23%;
+	margin-left: 1%;
+
 }
 
 #sendamessage h2 {
 	padding: 10px;
+	width:100%;
+}
+
+#sendamessage:hover{
 }
 
 #sendamessage {
 	display: inline-block;
 	width: 40%;
+	transition: 350ms ease-out;
+	border-radius: 7px;
 }
 
 .paragraphc {
@@ -68,18 +77,22 @@
 #contactdetails {
 	line-height: 1.5;
 font-size: 20px;
-	width: 60%;
+	width: 100%;
 
 }
 
 #contactinfo h2 {
 	padding: 20px;
-	width: 65%;
+	width: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: 5.5%;
 }
 
 #contactinfo {
 	display: inline-block;
-	width: 40%;
+	width: 42%;
 	height: auto;
 }
 
@@ -150,6 +163,7 @@ font-size: 20px;
 }
 
 #workwithme {
+	color: #4F3130;
 	display: table-cell;
 	width: 30%;
 	padding-bottom: 30px;
@@ -191,12 +205,13 @@ font-size: 20px;
 	padding: 20px;
 	border: 2px solid rgba(96, 95, 94, 0.9);
 	border-radius: 10px;
-	transition: 350ms ease-in;
 }
 
 .introimages {
 	padding: 10px;
 	margin: auto;
+	transition: 250ms ease-in;
+
 }
 
 #featured h1 {
@@ -210,10 +225,7 @@ font-size: 20px;
 
 }
 
-#intro h1:hover{
-	transition-property: all;
-	transform:scale(1.1);
-}
+#intro h1:
 
 .introh2{
 	color:#FAFAFF;
@@ -227,6 +239,7 @@ font-size: 20px;
 	font-size:110px;
 	line-height: 1.5;
 	vertical-align: middle;
+	color:#FAFAFF;
 	transition: 450ms ease-out;
 }
 
@@ -269,7 +282,7 @@ html{
 
 /*iPad Code*/
 /*
-@media screen and (max-height:900px) {
+@media screen and (max-width:9000px) {
 	
 	#headshot1{
 		width:80%;
@@ -349,7 +362,7 @@ html{
 		padding: 10%;
 	}
 	#intro{
-		height:100%;
+		height:auto;
 		width: 100%;
 	}
 	footer{
@@ -357,7 +370,7 @@ html{
 	}
 	body{
 		width: auto;
-		height: 404%;
+		height:100%;
 		overflow-x: scroll;
 		overflow-x: hidden;
 	}
@@ -369,7 +382,7 @@ html{
 */
 
 /*Phone Code*/
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
 	#headshot1{
 		width:80%;
 	}
@@ -448,6 +461,7 @@ html{
 		padding: 10%;
 	}
 	#intro{
+		width: 100%;
 		height:668px;
 		max-height: 736px;
 		
@@ -455,13 +469,7 @@ html{
 	footer{
 		font-size: 15px;
 	}
-	body{
-		width: auto;
-		overflow-x: scroll;
-	}
-	
-	html {
-		width: 100%;
-		overflow-x: hidden;
+		body{
+		width: 375px;
 	}
 }
