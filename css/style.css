@@ -304,6 +304,11 @@ font-size: 20px;
 
 }
 
+#featured a {
+	text-decoration: none;
+	transition: 350ms;
+	}
+}
 #featured h1 {
 	padding: 30px;
 
@@ -573,6 +578,10 @@ html{
 	#featuredimages{
 		margin-left: 1%;
 	}
+	#featured a{
+		text-decoration: none;
+	}
+
 	#featured h1,#featured h2{
 		margin-left:20%;
 	}
@@ -580,12 +589,11 @@ html{
 		font-size: 50px;
 		padding: 10%;
 	}
+
 	#intro{
 		width: 117%;
 		height:668px;
 		max-height: 736px;
-	
-		
 	}
 	footer{
 		width: 111%;
