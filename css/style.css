@@ -7,6 +7,48 @@
 :root{
 }
 
+								
+/*Thank You Page*/
+
+#thankyou a:hover{
+	background-color: #4F3130;
+	color: #FAFAFF;
+	transition:350ms ease-in-out;
+
+}
+
+#thankyou a{
+	background-color: #FAFAFF;
+	padding: 10px;
+	text-transform: uppercase;
+	margin:20px;
+	position:absolute;
+	width:15%;
+	border-radius:5px;
+}
+.thankyouh2{
+	color:#FAFAFF;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+#thankyou h1 {
+	display:table-cell;
+	padding: 10.21%;
+	margin: auto;
+	font-size:80px;
+	line-height: 1.5;
+	vertical-align: middle;
+	color:#FAFAFF;
+}
+
+#thankyou {
+	display: table;
+	background-color: #2E2E3A;
+	height: 95%;
+	width: 100%;
+}
+								
 /*Portfolio Page*/
 
 .main-content{
@@ -22,6 +64,7 @@
 	grid-template-rows: repeat(6, 1fr);
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 10px;
+
 }
 
 .portfolio-item{
@@ -58,6 +101,16 @@ grid-column: span 2;
 	font-size: 26px;
 }
 
+.one{
+	background-image:url();
+	color:#FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position:relative;
+}
 .meliitats{
 	background-image:url(img/melii.png);
 	color:#FAFAFF;
@@ -67,9 +120,27 @@ grid-column: span 2;
 	background-position: center;
 	transition: all ease-in-out 1s;
 	position:relative;
-	
 }
-
+.three{
+	background-image:url();
+	color:#FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position:relative;
+}
+.four{
+	background-image:url();
+	color:#FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position:relative;
+}
 .perfecttax{
 	background-image:url(img/ptax-.png);
 	color:#FAFAFF;
@@ -81,6 +152,16 @@ grid-column: span 2;
 	position:relative;
 	
 }
+.six{
+	background-image:url();
+	color:#FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position:relative;
+}
 
 .myworkpage2{
 	display: flex;
@@ -89,33 +170,14 @@ grid-column: span 2;
 	top:0;
 	justify-content: center;
 }
-
+								
 /*Contact & Send A Message*/
-.submitbutton {
-	width: 45%;
-	font-size: 25px;
-}
 
-.textarea {
-	width: 100%;
-	height: 80px;
+#sendamessage {
+	display: table-cell;
+	width: 50%;
+	border-radius: 7px;
 	text-align: left;
-	color:#000;
-}
-
-.inputs {
-	width: 100%;
-	height: 30px;
-	font-size: 20px;
-	text-align: left;
-	color:#000;
-}
-
-#form {
-	width: 90%;
-	padding: 20px;
-	margin-left: 1%;
-
 }
 
 #sendamessage h2 {
@@ -123,14 +185,40 @@ grid-column: span 2;
 	width:100%;
 }
 
-#sendamessage:hover{
+.submitbutton {
+	width: 45%;
+	font-size: 25px;
 }
 
-#sendamessage {
-	display: inline-block;
-	width: 40%;
-	transition: 350ms ease-out;
-	border-radius: 7px;
+.textarea {
+	width: 50%;
+	height: 80px;
+	text-align: left;
+	color:#000;
+	font-size: 17px;
+}
+
+.inputs {
+	width: 50%;
+	height: 30px;
+	font-size: 15px;
+	text-align: left;
+	color:#000;
+}
+
+#form label{
+	text-align: left;
+}
+#form {
+	width: 90%;
+	padding: 20px;
+	margin-left: 1%;
+	text-align: left;
+}
+
+.map{
+	margin-left: 5%;
+	padding: 10px;
 }
 
 .paragraphc {
@@ -149,22 +237,21 @@ grid-column: span 2;
 #contactdetails li:hover {
 	color: #FAFAFF;
 	background-color: rgba(46, 46, 58, 0.7);
+	transition:250ms ease-out;
 }
 
 #contactdetails li {
-	display: block;
+	display: inline;
 	padding: 10px;
-	text-align: center;
 	border-bottom: 1px solid rgba(96, 95, 94, 0.2);
 	margin-bottom: 20px;
-	transition:250ms ease-out;
+	width: 100%;
 }
 
 #contactdetails {
 	line-height: 1.5;
-font-size: 20px;
+	font-size: 20px;
 	width: 100%;
-
 }
 
 #contactinfo h2 {
@@ -177,19 +264,24 @@ font-size: 20px;
 }
 
 #contactinfo {
-	display: inline-block;
-	width: 42%;
+	display: table-cell;
+	width: 50%;
 	height: auto;
+	padding-bottom: 50px;
 }
 
-#contactinfo h1 {}
+#contact h1{
+	display: table-caption;
+	height: auto;
+	vertical-align: top;
+}
 
 #contact {
-	display: inline;
+	display: table;
 	width: 100%;
 }
 
-
+								
 /*About Me Section*/
 .headshot {
 	width: 65%;
@@ -237,7 +329,7 @@ font-size: 20px;
 	height: auto;
 }
 
-
+								
 /*My Work Section*/
 #followme {
 	display: table-cell;
@@ -269,7 +361,6 @@ font-size: 20px;
 
 #mywork a{
 	text-decoration: none;
-	
 }
 #mywork {
 	display: table-caption;
@@ -289,7 +380,7 @@ font-size: 20px;
 	margin-left: 0px;
 }
 
-
+								
 /*Intro*/
 .introimages:hover {
 	padding: 20px;
@@ -322,9 +413,10 @@ font-size: 20px;
 
 #intro h1:
 
-.introh2{
+.introh1{
 	color:#FAFAFF;
 	font-weight: 200;
+
 }
 
 #intro h1 {
@@ -335,7 +427,8 @@ font-size: 20px;
 	line-height: 1.5;
 	vertical-align: middle;
 	color:#FAFAFF;
-	transition: 450ms ease-out;
+	transition: 1s ease-in-out;
+
 }
 
 #intro {
@@ -344,7 +437,7 @@ font-size: 20px;
 	height: 100%;
 	width: 100%;
 }
-
+								
 /*Universal*/
 hr {
 	max-width: 60%;
@@ -376,7 +469,7 @@ html{
 	
 }
 
-
+								
 /*iPad Code*/
 /*
 @media screen and (max-width:9000px) {
@@ -477,7 +570,7 @@ html{
 	}
 }
 */
-
+								
 /*Phone Code*/
 @media (max-width:600px) {
 	#headshot1{
