@@ -9,14 +9,15 @@
 
 <body>
 	<div id="intro">
-		<h1 class="introh2">Hi<br>Welcome to<br>My Page!</h1>
+		<h1 class="introh1">Hi<br>Welcome to<br>My Page!</h1>
 	</div>
 	<div id="featured">
 		<h1 class="heading1">I'm Helvin Rymer</h1>
 		<h1 class="heading1">Check out my work and get in touch!</h1>
-		<a href="mywork.html"><h2 class="heading2">Featured Works</h2></a>
+		<h2 class="heading2">Featured Works</h2>
 		<div id="featuredimages">
-				<!--<a href="https://helvin159.github.io/MelliiTats/" target="_blank"><img class="introimages" src="assets/img/Screen%20Shot%202019-09-29%20at%205.18.14%20PM.png" width="400px" height="auto"></a>
+
+<!--<a href="https://helvin159.github.io/MelliiTats/" target="_blank"><img class="introimages" src="assets/img/Screen%20Shot%202019-09-29%20at%205.18.14%20PM.png" width="400px" height="auto"></a>
 			<a href="https://helvin159.github.io/Perfect-Tax/" target="_blank"><img class="introimages" src="assets/img/ptax-.png" width="400px" height="auto"></a>
 				<a href="https://github.com/Helvin159" target="_blank"><img class="introimages" src="assets/img/page2.png" width="400px" height="auto"></a>-->
 
@@ -31,18 +32,7 @@
 		</div>
 	</div>
 			
-<!--
-		<div class="main-content">
-		<div class="portfolio">
-		<div class="portfolio-item medium">one</div>
-		<div class="portfolio-item large meliitats">Meliis Tat's</div>
-		<div class="portfolio-item medium">three</div>
-		<div class="portfolio-item small">four</div>
-		<div class="portfolio-item tall">five</div>
-		<div class="portfolio-item wide">six</div>
-		</div>
-	</div>
--->
+
 		</div>
 	</div>
 	<hr>
@@ -71,6 +61,7 @@
 	</div>
 	<hr>
 	<!--Clients Section-->
+
 	<!--<div id="clients"></div>-->
 	
 	<div id="aboutme">
@@ -89,12 +80,11 @@
 	<hr>
 	<div id="contact">
 		<h1 class="heading1">Contact</h1>
-
 		<div id="contactinfo">
 			<h2 class="getintouch2">Get In Touch</h2>
 			<div id="contactdetails">
 				
-				<p class="paragraphc">306 E 171st Street<br>Bronx, NY 10457<br>
+				<p class="paragraphc">1460 Inwood Avenue<br>Bronx, NY 10452<br>
 					<a href="tel:9295236682">(929)523-6682</a> |
 			<a href="mailto:Helvin159@gmail.com">Helvin159@gmail.com</a>
 				</p>
@@ -103,8 +93,8 @@
 					<a href="https://github.com/Helvin159" target="_blank"><li>Github</li></a>
 					<a href="https://www.linkedin.com/in/helvinrymer/" target="_blank"><li>LinkedIn</li></a>
 					<a href="https://www.instagram.com/mrrymernyc/" target="_blank"><li>Instagram</li></a>
-					
 				</ul>
+				<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.362342393615!2d-73.919728084668!3d40.84196783759126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f43e62daa905%3A0x6869239b49d46457!2s1460%20Inwood%20Ave%2C%20The%20Bronx%2C%20NY%2010452!5e0!3m2!1sen!2sus!4v1570072715218!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 			</div>
 		</div>
 
@@ -112,18 +102,37 @@
 			<h2 class="sendamessageh2">Send Me A Message</h2>
 			<br>
 			<div id="form">
-				<form action="https://www.instagram.com/mrrymernyc/">
-					Name<br>
-					<input class="inputs" type="text" name="contact" required>
+				<form id="fm" action="thankyou.html">
+					<label>
+						Name<br>
+						<input class="inputs" type="text" name="name" placeholder="Full Name" required>
+					</label>
 					<br><br>
-					Email<br>
-					<input class="inputs" type="email" name="contact" required>
+					<label>
+						Email<br>
+					<input class="inputs" type="email" name="email" placeholder="Email" required>
+					</label>
 					<br><br>
+					<label>
 					Website<br>
-					<input class="inputs" type="email" name="contact"><br><br>
+					<input class="inputs" type="text" name="website" placeholder="Website (If any...)">
+					</label>
+					<br><br>
+					<label>How did you heard about me?<br>
+						<select name="referal" id="referral">
+							<option value="newsletter">Newsletter</option>
+							<option value="referral">Personal referral</option>
+							<option value="search">Internet Search</option>
+							<option value="socialmedia">Social Media</option>
+							<option value="youtube">YouTube</option>
+						</select>
+					</label>
+					<br>
+					<br>
+					<label>
 					Message<br>
-					<textarea class="textarea" type="comment" required></textarea><br>
-					<input class="submitbutton" type="submit" name="contact">
+						<textarea class="textarea" type="comment" placeholder="Questions or requests..." required></textarea></label> <br>
+					<input class="submitbutton" type="submit" name="submit">
 				</form>
 			</div>
 		</div>
@@ -131,6 +140,6 @@
 	<hr>
 	<br><br>
 	<footer>
-		Helvin Rymer | 306 E 171st Street, Bronx, NY | Web Developer | Content Creator | Social Media Management
+		Helvin Rymer | 1460 Inwood Avenue, Bronx, NY 10452 | Web Developer | Content Creator | Social Media Management
 	</footer>
 </body></html>
