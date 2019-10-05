@@ -1,11 +1,16 @@
+:root {
+	--red: (rgba(177, 51, 48, 0.5));
+	--black: (rgba(2, 17, 27, 0.5));
+	--charcoal: (rgba(46, 64, 87, 0.5));
+}
+
+
 * {
 	text-align: center;
 	font-family: sans-serif;
 	color:#605F5E;
 }
 
-:root{
-}
 
 								
 /*Thank You Page*/
@@ -67,13 +72,20 @@
 
 }
 
+.portfolio-item a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 40px;
+
+}
 .portfolio-item{
-	background: #4F3130;
+	background-color: rgba(2, 17, 27, 0.5);
 	color:#FAFAFF;
 	font-weight: 350;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .medium {
@@ -96,9 +108,12 @@ grid-column: span 2;
 	grid-column: span 3;
 }
 
+
 .portfolio-item:hover{
 	transform: scale(1.02);
 	font-size: 26px;
+	cursor: pointer;
+	color:
 }
 
 .one{
@@ -112,9 +127,9 @@ grid-column: span 2;
 	position:relative;
 }
 .meliitats{
-	background-image:url(img/melii.png);
+	  background:linear-gradient(0deg,rgba(2,17,27,0.5),rgba(2,17,27,0.5)),url(img/melii.png);
 	color:#FAFAFF;
-	text-shadow: -4px 2px 10px #000;
+	text-shadow: -1px 1px 5px #fff;
 	font-size: 25px;
 	background-size: cover;
 	background-position: center;
@@ -142,9 +157,9 @@ grid-column: span 2;
 	position:relative;
 }
 .perfecttax{
-	background-image:url(img/ptax-.png);
+	background:linear-gradient(0deg,rgba(2,17,27,0.5),rgba(2,17,27,0.5)),url(img/ptax-.png);
 	color:#FAFAFF;
-	text-shadow: -4px 2px 10px #000;
+	text-shadow: -1px 1px 5px #fff;
 	font-size: 25px;
 	background-size: cover;
 	background-position: center;
@@ -153,9 +168,9 @@ grid-column: span 2;
 	
 }
 .six{
-	background-image:url(img/Castillo.png);
+	background-image:linear-gradient(0deg,rgba(2,17,27,0.5),rgba(2,17,27,0.5)),url(img/Castillo.png);
 	color:#FAFAFF;
-	text-shadow: -4px 2px 10px #000;
+	text-shadow: -1px 1px 5px #fff;
 	font-size: 25px;
 	background-size: cover;
 	background-position: center;
