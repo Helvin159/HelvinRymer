@@ -9,43 +9,44 @@
 * {
 	text-align: center;
 	font-family: sans-serif;
-	color:#605F5E;
+	color: #605F5E;
 }
 
 
-								
+
 /*Thank You Page*/
 
-#thankyou a:hover{
+#thankyou a:hover {
 	background-color: #4F3130;
 	color: #FAFAFF;
-	transition:350ms ease-in-out;
+	transition: 350ms ease-in-out;
 
 }
 
-#thankyou a{
+#thankyou a {
 	background-color: #FAFAFF;
 	padding: 10px;
 	text-transform: uppercase;
-	margin:20px;
-	position:absolute;
-	width:15%;
-	border-radius:5px;
+	margin: 20px;
+	position: absolute;
+	width: 15%;
+	border-radius: 5px;
 }
-.thankyouh2{
-	color:#FAFAFF;
+
+.thankyouh2 {
+	color: #FAFAFF;
 	font-weight: 200;
 	text-transform: uppercase;
 }
 
 #thankyou h1 {
-	display:table-cell;
+	display: table-cell;
 	padding: 10.21%;
 	margin: auto;
-	font-size:80px;
+	font-size: 80px;
 	line-height: 1.5;
 	vertical-align: middle;
-	color:#FAFAFF;
+	color: #FAFAFF;
 }
 
 #thankyou {
@@ -54,17 +55,18 @@
 	height: 95%;
 	width: 100%;
 }
-								
+
 /*Portfolio Page*/
 
-.main-content{
+.main-content {
 	display: block;
 	padding: 10%;
-	flex:1 1 80%;
-	height:auto;
+	flex: 1 1 80%;
+	height: auto;
 	position: relative;
 }
-.portfolio{
+
+.portfolio {
 	display: grid;
 	height: 80%;
 	grid-template-rows: repeat(6, 1fr);
@@ -73,15 +75,16 @@
 
 }
 
-.portfolio-item a{
+.portfolio-item a {
 	text-decoration: none;
-	color:#fff;
+	color: #fff;
 	font-size: 35px;
 
 }
-.portfolio-item{
+
+.portfolio-item {
 	background-color: rgba(2, 17, 27, 0.5);
-	color:#FAFAFF;
+	color: #FAFAFF;
 	font-weight: 350;
 	display: flex;
 	justify-content: center;
@@ -90,104 +93,113 @@
 }
 
 .medium {
-grid-row: span 2;
-grid-column: span 2;
+	grid-row: span 2;
+	grid-column: span 2;
 }
 
-.large{
+.large {
 	grid-row: span 3;
 	grid-column: span 3;
 }
 
-.tall{
+.tall {
 	grid-row: span 3;
 	grid-column: span 2;
 }
 
-.wide{
+.wide {
 	grid-row: span 2;
 	grid-column: span 3;
 }
 
 
-.portfolio-item:hover{
+.portfolio-item:hover {
 	transform: scale(1.02);
 	font-size: 26px;
 	cursor: pointer;
 	color:
 }
 
-.one{
-	background-image:url();
-	color:#FAFAFF;
+.one {
+	background-image: url();
+	color: #FAFAFF;
 	text-shadow: -4px 2px 10px #000;
 	font-size: 25px;
 	background-size: cover;
 	background-position: center;
 	transition: all ease-in-out 1s;
-	position:relative;
-}
-.meliitats{
-	  background:linear-gradient(0deg,rgba(2,17,27,0.5),rgba(2,17,27,0.5)),url(img/melii.png);
-	color:#FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position:relative;
-}
-.three{
-	background-image:url();
-	color:#FAFAFF;
-	text-shadow: -4px 2px 10px #000;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position:relative;
-}
-.four{
-	background-image:url();
-	color:#FAFAFF;
-	text-shadow: -4px 2px 10px #000;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position:relative;
-}
-.perfecttax{
-	background:linear-gradient(0deg,rgba(2,17,27,0.5),rgba(2,17,27,0.5)),url(img/ptax-.png);
-	color:#FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position:relative;
-	
-}
-.six{
-	background-image:linear-gradient(0deg,rgba(2,17,27,0.5),rgba(2,17,27,0.5)),url(img/Castillo.png);
-	color:#FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position:relative;
+	position: relative;
 }
 
-.myworkpage2{
+.meliitats {
+	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/melii.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.three {
+	background-image: url();
+	color: #FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.four {
+	background-image: url();
+	color: #FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.perfecttax {
+	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/ptax-.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+
+}
+
+.six {
+	background-image: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/Castillo.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.myworkpage2 {
 	display: flex;
-	width:100%;
+	width: 100%;
 	position: absolute;
-	top:0;
+	top: 0;
 	justify-content: center;
 }
-								
+
 /*Contact & Send A Message*/
+
+.fm{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
 
 #sendamessage {
 	display: table-cell;
@@ -198,7 +210,7 @@ grid-column: span 2;
 
 #sendamessage h2 {
 	padding: 10px;
-	width:100%;
+	width: 80%;
 }
 
 .submitbutton {
@@ -207,34 +219,32 @@ grid-column: span 2;
 }
 
 .textarea {
-	width: 50%;
+	width: 60%;
 	height: 80px;
 	text-align: left;
-	color:#000;
+	color: #000;
 	font-size: 17px;
 }
 
 .inputs {
-	width: 50%;
+	width: 60%;
 	height: 30px;
 	font-size: 15px;
 	text-align: left;
-	color:#000;
+	color: #000;
 }
 
-#form label{
-	text-align: left;
-}
 #form {
-	width: 90%;
-	padding: 20px;
+	width: 75%;
+	padding: 10px;
 	margin-left: 1%;
-	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.map{
+.map {
 	margin-left: 5%;
 	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .paragraphc {
@@ -253,7 +263,7 @@ grid-column: span 2;
 #contactdetails li:hover {
 	color: #FAFAFF;
 	background-color: rgba(46, 46, 58, 0.7);
-	transition:250ms ease-out;
+	transition: 250ms ease-out;
 }
 
 #contactdetails li {
@@ -286,7 +296,7 @@ grid-column: span 2;
 	padding-bottom: 50px;
 }
 
-#contact h1{
+#contact h1 {
 	display: table-caption;
 	height: auto;
 	vertical-align: top;
@@ -297,7 +307,7 @@ grid-column: span 2;
 	width: 100%;
 }
 
-								
+
 /*About Me Section*/
 .headshot {
 	width: 65%;
@@ -312,7 +322,8 @@ grid-column: span 2;
 	display: inline-block;
 	height: auto;
 	width: 47%;
-	vertical-align: middle
+	vertical-align: middle;
+
 }
 
 #paragraph p {
@@ -324,6 +335,8 @@ grid-column: span 2;
 	border: 2px solid rgba(96, 95, 94, 0.3);
 	border-radius: 5px;
 	text-align: justify;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
 }
 
 #paragraph {
@@ -339,13 +352,16 @@ grid-column: span 2;
 
 }
 
+#aboutme img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
 #aboutme {
 	display: inline;
 	width: 100%;
 	height: auto;
 }
 
-								
+
 /*My Work Section*/
 #followme {
 	display: table-cell;
@@ -375,9 +391,10 @@ grid-column: span 2;
 	vertical-align: middle;
 }
 
-#mywork a{
+#mywork a {
 	text-decoration: none;
 }
+
 #mywork {
 	display: table-caption;
 	width: 95%;
@@ -395,15 +412,16 @@ grid-column: span 2;
 	text-align: center;
 	margin-left: 0px;
 }
-#grid{
-	margin:auto;
-	height:500px;
-	width:80%;
+
+#grid {
+	margin: auto;
+	height: 500px;
+	width: 80%;
 	padding-top: 50px;
 	padding-bottom: 0px
 }
 
-								
+
 /*Intro*/
 .introimages:hover {
 	padding: 20px;
@@ -421,8 +439,9 @@ grid-column: span 2;
 #featured a {
 	text-decoration: none;
 	transition: 350ms;
-	}
 }
+}
+
 #featured h1 {
 	padding: 30px;
 
@@ -434,22 +453,20 @@ grid-column: span 2;
 
 }
 
-#intro h1:
-
-.introh1{
-	color:#FAFAFF;
+#intro h1: .introh1 {
+	color: #FAFAFF;
 	font-weight: 200;
 
 }
 
 #intro h1 {
-	display:table-cell;
+	display: table-cell;
 	padding: 10.21%;
 	margin: auto;
-	font-size:110px;
+	font-size: 110px;
 	line-height: 1.5;
 	vertical-align: middle;
-	color:#FAFAFF;
+	color: #FAFAFF;
 
 }
 
@@ -459,7 +476,7 @@ grid-column: span 2;
 	height: 100%;
 	width: 100%;
 }
-								
+
 /*Universal*/
 hr {
 	max-width: 60%;
@@ -470,12 +487,12 @@ footer {
 	width: 100%;
 	font-size: 20px;
 	padding: 10px;
-	color:#FAFAFF;
+	color: #FAFAFF;
 	background-color: #2E2E3A;
 	font-weight: 200;
 }
 
-body{
+body {
 	height: 100%;
 	width: 100%;
 	background-color: #FAFAFF;
@@ -485,7 +502,7 @@ body{
 }
 
 
-								
+
 /*iPad Code*/
 /*
 @media screen and (max-width:9000px) {
@@ -586,183 +603,224 @@ body{
 	}
 }
 */
-								
+
 /*Phone Code*/
 @media (max-width:600px) {
-	
 
-	#headshot1{
-		width:80%;
-		
+
+	#headshot1 {
+		width: 80%;
+
 	}
-	#hireme{
+
+	#hireme {
 		width: 95%;
 		padding: 1%;
-		margin:auto;
+		margin: auto;
 		line-height: 1.5;
 		display: block;
 		font-weight: 400;
 	}
-	#workwithme{
+
+	#workwithme {
 		width: 95%;
 		padding: 1%;
-		margin:auto;
+		margin: auto;
 		display: block;
 	}
-	#followme{
+
+	#followme {
 		width: 95%;
 		padding: 1%;
-		margin:auto;
+		margin: auto;
 		display: block;
 	}
-	.mywork{
+
+	.mywork {
 		display: block;
 		margin-right: 16%;
 	}
-	.sendamessageh2{
-		margin-left:;
+
+	.map{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
 	}
-	.getintouch2{
+
+	.sendamessageh2 {
+		margin-left: ;
+	}
+
+	.getintouch2 {
 		margin-left: 12.5%;
 	}
-	.submitbutton{
+
+	.submitbutton {
 		background-color: #605F5E;
-		color:#FAFAFF;
+		color: #FAFAFF;
 		border-radius: 5px;
 		width: 50%;
 	}
-	.textarea{
-		border:1px solid #2E2E3A;
+
+	.textarea {
+		border: 1px solid #2E2E3A;
 	}
-	.inputs{
-		border:1px solid #2E2E3A;
+
+	.inputs {
+		border: 1px solid #2E2E3A;
 		width: 20px;
 	}
-	#sendamessage form{
+
+	#form{
+		box-shadow: none;
+		margin-left: 10%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		padding-right: 13%;
+
+	}
+	
+	#sendamessage form {
 		width: 100%;
 		margin-left: 6%;
 	}
-	#sendamessage input{
+
+	#sendamessage input {
 		width: 100%;
 	}
-	#sendamessage textarea{
-		width:100%;
+
+	#sendamessage textarea {
+		width: 100%;
 	}
-	#sendamessage h2{
-		margin-left: 7%;
+
+	#sendamessage h2 {
+		margin-left: 13%;
 		font-size: 30px;
 	}
-	#sendamessage{
+
+	#sendamessage {
 		margin-left: 5%;
 		width: 100%;
 		display: inline;
 	}
-	#contactdetails li{
+
+	#contactdetails li {
 		text-align: center;
-		padding:5px;
+		padding: 5px;
 		margin-bottom: 2px;
 		font-size: 20px;
-		margin-left:7%;
+		margin-left: 7%;
 	}
-	#contactdetails p{
+
+	#contactdetails p {
 		margin-left: 25%;
 	}
-	#contactdetails{
-		width:90%;
+
+	#contactdetails {
+		width: 90%;
 		text-align: center;
 	}
-	#contactdetails iframe{
+
+	#contactdetails iframe {
 		padding-left: 0px;
 		margin-left: 5%;
 	}
-	#contactinfo h2{
+
+	#contactinfo h2 {
 		margin-left: 13%;
 		font-size: 30px;
 	}
-	#contactinfo{
+
+	#contactinfo {
 		width: 100%;
 		margin-left: 3%;
 		display: inline-block
 	}
-	.heading1{
+
+	.heading1 {
 		text-align: center;
 		margin-left: 155%;
 	}
-	#contact{
-		width:100%;
+
+	#contact {
+		width: 100%;
 		display: inline-block;
 	}
-	#paragraph{
-		display:none;
+
+	#paragraph {
+		display: none;
 	}
-	#grid{
+
+	#grid {
 		margin-left: 6.4%;
 		width: 100%;
+
 	}
-	.headshot{
+
+	.headshot {
 		margin-left: 20%;
 	}
 
-	#aboutme h1{
+	#aboutme h1 {
 		margin-left: 15%;
 	}
 
-	hr{
+	hr {
 		margin-left: 28%;
 	}
 
-	#workdescript h2,#workdescript p{
+	#workdescript h2,
+	#workdescript p {
 		margin-left: 15%
 	}
 
-	#workdescript h1{
+	#workdescript h1 {
 		margin-left: 7%;
 	}
 
-	#featuredimages{
+	#featuredimages {
 		margin-left: 1%;
 	}
 
-	#featured a{
+	#featured a {
 		text-decoration: none;
 	}
 
-	#featured h1,#featured h2{
-		margin-left:20%;
+	#featured h1,
+	#featured h2 {
+		margin-left: 20%;
 	}
 
-	#thankyou h1{
+	#thankyou h1 {
 		font-size: 50px;
 		padding: 10%;
 	}
 
-	#thankyou{
+	#thankyou {
 		width: 111.9%;
-		height:670px;
+		height: 670px;
 		margin-right: 0px;
 		padding-right: 0px;
 	}
 
-	#intro h1{
+	#intro h1 {
 		font-size: 50px;
 		padding: 10%;
 	}
 
-	#intro{
+	#intro {
 		width: 111.9%;
-		height:1000%;
+		height: 1000%;
 		margin-right: 0px;
 		padding-right: 0px;
 	}
 
-	footer{
+	footer {
 		width: 107%;
 		font-size: 15px;
 	}
 
-		body{
-			margin: 0px;
-			width: 100%;
-			overflow-x: hidden;
+	body {
+		margin: 0px;
+		width: 100%;
+		overflow-x: hidden;
 	}
 }
