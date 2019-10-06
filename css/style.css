@@ -484,12 +484,6 @@ body{
 	overflow-x: hidden;
 }
 
-html{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	
-}
 
 								
 /*iPad Code*/
@@ -595,6 +589,8 @@ html{
 								
 /*Phone Code*/
 @media (max-width:600px) {
+	
+
 	#headshot1{
 		width:80%;
 		
@@ -654,6 +650,7 @@ html{
 	}
 	#sendamessage h2{
 		margin-left: 7%;
+		font-size: 30px;
 	}
 	#sendamessage{
 		margin-left: 5%;
@@ -676,7 +673,11 @@ html{
 	}
 	#contactdetails iframe{
 		padding-left: 0px;
-		margin-left: 8%;
+		margin-left: 5%;
+	}
+	#contactinfo h2{
+		margin-left: 13%;
+		font-size: 30px;
 	}
 	#contactinfo{
 		width: 100%;
@@ -684,7 +685,8 @@ html{
 		display: inline-block
 	}
 	.heading1{
-		margin-left: 150%;
+		text-align: center;
+		margin-left: 155%;
 	}
 	#contact{
 		width:100%;
@@ -694,7 +696,7 @@ html{
 		display:none;
 	}
 	#grid{
-		margin-left: 7.5%;
+		margin-left: 6.4%;
 		width: 100%;
 	}
 	.headshot{
@@ -723,23 +725,35 @@ html{
 	#featured h1,#featured h2{
 		margin-left:20%;
 	}
+	
+		#thankyou h1{
+		font-size: 50px;
+		padding: 10%;
+	}
+	#thankyou{
+		width: 111.9%;
+		height:670px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
 	#intro h1{
 		font-size: 50px;
 		padding: 10%;
 	}
 
 	#intro{
-		width: 117%;
-		height:100%;
+		width: 111.9%;
+		height:1000%;
+		margin-right: 0px;
+		padding-right: 0px;
 	}
 	footer{
-		width: 111%;
+		width: 107%;
 		font-size: 15px;
 	}
-	html{
-		width: 100%;
-	}
+
 		body{
+			margin: 0px;
 			width: 100%;
 			overflow-x: hidden;
 	}
