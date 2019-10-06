@@ -2,6 +2,7 @@
 	--red: (rgba(177, 51, 48, 0.5));
 	--black: (rgba(2, 17, 27, 0.5));
 	--charcoal: (rgba(46, 64, 87, 0.5));
+	--gradient: linear-gradient(45deg #2E4057, #02111B, #000, #2E4057)
 }
 
 
@@ -449,7 +450,6 @@ grid-column: span 2;
 	line-height: 1.5;
 	vertical-align: middle;
 	color:#FAFAFF;
-	transition: 1s ease-in-out;
 
 }
 
@@ -702,22 +702,27 @@ body{
 	.headshot{
 		margin-left: 20%;
 	}
+
 	#aboutme h1{
 		margin-left: 15%;
 	}
+
 	hr{
 		margin-left: 28%;
 	}
+
 	#workdescript h2,#workdescript p{
 		margin-left: 15%
 	}
+
 	#workdescript h1{
 		margin-left: 7%;
 	}
-	
+
 	#featuredimages{
 		margin-left: 1%;
 	}
+
 	#featured a{
 		text-decoration: none;
 	}
@@ -725,17 +730,19 @@ body{
 	#featured h1,#featured h2{
 		margin-left:20%;
 	}
-	
-		#thankyou h1{
+
+	#thankyou h1{
 		font-size: 50px;
 		padding: 10%;
 	}
+
 	#thankyou{
 		width: 111.9%;
 		height:670px;
 		margin-right: 0px;
 		padding-right: 0px;
 	}
+
 	#intro h1{
 		font-size: 50px;
 		padding: 10%;
@@ -747,6 +754,7 @@ body{
 		margin-right: 0px;
 		padding-right: 0px;
 	}
+
 	footer{
 		width: 107%;
 		font-size: 15px;
