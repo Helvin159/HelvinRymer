@@ -120,13 +120,14 @@
 	color:
 }
 
-.one {
-	background-image: url();
+.ufr {
+	background-image: url(img/UFRPAGE.png);
 	color: #FAFAFF;
-	text-shadow: -4px 2px 10px #000;
+	text-shadow: -1px 1px 5px #fff;
 	font-size: 25px;
 	background-size: cover;
-	background-position: center;
+	background-repeat: no-repeat;
+	background-position: bottom right;
 	transition: all ease-in-out 1s;
 	position: relative;
 }
