@@ -489,6 +489,9 @@ hr {
 	background-color: rgba(96, 95, 94, 0.1);
 }
 
+footer p{
+	color: #FAFAFF;
+}
 footer {
 	width: 100%;
 	font-size: 20px;
@@ -507,108 +510,6 @@ body {
 	overflow-x: hidden;
 }
 
-
-
-/*iPad Code*/
-/*
-@media screen and (max-width:9000px) {
-	
-	#headshot1{
-		width:80%;
-	}
-	.submitbutton{
-		background-color: #605F5E;
-		color:#FAFAFF;
-		border-radius: 5px;
-	}
-	.textarea{
-		border:1px solid #2E2E3A;
-	}
-	.inputs{
-		border:1px solid #2E2E3A;
-		width: 20px;
-	}
-	#sendamessage form{
-		width: 100%;
-	}
-	#sendamessage input{
-		width: 100%;
-	}
-	#hireme{
-		width: 95%;
-		padding: 1%;
-		margin:auto;
-		line-height: 1.5;
-		display: block;
-		font-weight: 400;
-	}
-	#workwithme{
-		width: 95%;
-		padding: 1%;
-		margin:auto;
-		display: block;
-	}
-	#followme{
-		width: 95%;
-		padding: 1%;
-		margin:auto;
-		display: block;
-	}
-	.mywork{
-		display: block;
-		margin-right: 16%;
-	}
-	.sendamessageh2{
-		margin-left:;
-	}
-	.getintouch2{
-		margin-left: 12.5%;
-	}
-	#sendamessage{
-		width: 100%;
-	}
-	#contactdetails li{
-		text-align: center;
-		margin-right: 10%;
-	}
-	#contactdetails{
-		width:100%;
-		text-align: center;
-
-	}
-	#contactinfo{
-		width: 100%;
-		
-	}
-	#contact{
-		width:100%;
-	}
-	#paragraph{
-		display:none;
-	}
-	#intro h1{
-		font-size: 50px;
-		padding: 10%;
-	}
-	#intro{
-		height:auto;
-		width: 100%;
-	}
-	footer{
-		font-size: 15px;
-	}
-	body{
-		width: auto;
-		height:100%;
-		overflow-x: scroll;
-		overflow-x: hidden;
-	}
-	
-	html {
-		overflow-x: hidden;
-	}
-}
-*/
 
 /*Phone Code*/
 @media (max-width:600px) {
@@ -671,14 +572,15 @@ body {
 	#form{
 		box-shadow: none;
 		margin-left: 5%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		padding-right: 13%;
-
+		text-align: left;
 	}
 	
 	#sendamessage form {
 		width: 95%;
 		margin-left: ;
+		text-align: left;
 	}
 
 	#sendamessage input {
@@ -687,17 +589,20 @@ body {
 
 	#sendamessage textarea {
 		width: 100%;
+		
 	}
 
 	#sendamessage h2 {
 		margin-left: 7%;
 		font-size: 30px;
+
 	}
 
 	#sendamessage {
 		margin-right: 10%;
 		width: 90%;
 		display: inline;
+		text-align: left;
 	}
 
 	#contactdetails li {
@@ -811,7 +716,6 @@ body {
 	footer p{
 		width: 95%;
 		margin-right: 5%;
-
 	}
 	footer {
 		width: 100%;
