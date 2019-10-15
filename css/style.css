@@ -1,3 +1,9 @@
+* {
+	text-align: center;
+	font-family: sans-serif;
+	color: #605F5E;
+}
+
 :root {
 	--red: (rgba(177, 51, 48, 0.5));
 	--black: (rgba(2, 17, 27, 0.5));
@@ -5,11 +11,6 @@
 	--gradient: linear-gradient(45deg #2E4057, #02111B, #000, #2E4057)
 }
 
-* {
-	text-align: center;
-	font-family: sans-serif;
-	color: #605F5E;
-}
 
 /*Thank You Page*/
 
@@ -463,10 +464,9 @@
 #featured {
 	width: 100%;
 	height: auto;
-
 }
 
-#intro h1: .introh1 {
+#intro h1, .introh1 {
 	color: #FAFAFF;
 	font-weight: 200;
 
@@ -521,10 +521,8 @@ body {
 /*Phone Code*/
 @media (max-width:600px) {
 
-
 	#headshot1 {
 		width: 80%;
-
 	}
 
 	#hireme {
@@ -663,11 +661,12 @@ body {
 	#grid {
 		margin-left: 5%;
 		width: 90%;
-
+		margin-bottom: 1%;
+		padding-bottom: 1%;
 	}
 
 	.headshot {
-
+		width: 90%;
 	}
 
 	#aboutme h1 {
@@ -691,10 +690,10 @@ body {
 		text-decoration: none;
 	}
 
-	#featured h1,
-	#featured h2 {
-		width: 95%;
-		margin-left: 3%;
+	#featured h1{
+		width: 85%;
+		margin-left: 0px;
+		margin-right: 10px;
 	}
 
 	#thankyou h1 {
