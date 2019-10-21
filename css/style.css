@@ -660,6 +660,11 @@ body {
 		display: none;
 	}
 
+	.portfolio-item a{
+		font-size: 20px;
+		padding-top: 55%;
+	}
+
 	#grid {
 		margin-left: 5%;
 		width: 90%;
