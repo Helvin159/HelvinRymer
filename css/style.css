@@ -720,8 +720,8 @@ body {
 	}
 
 	#paragraph p{
-		width: 85%;
-		margin: 0 2.5% 5% 2.5%;
+		width: 83%;
+		margin: 0 3.5% 5% 2.5%;
 		text-align: justify-all;
 	}
 
@@ -832,4 +832,14 @@ body {
 		overflow: scroll;
 		overflow-x: hidden;
 	}
+}
+
+@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3){
+	
+		#paragraph p{
+		width: 80%;
+		margin: 0 2.5% 5% 3.5%;
+		text-align: justify-all;
+	}
+
 }
