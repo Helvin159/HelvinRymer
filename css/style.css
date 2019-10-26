@@ -548,10 +548,10 @@
 }
 
 .h-img{
-	width: 3%;
+	width: 10%;
 	height: auto;
 	box-shadow: -1px 1px 7px rgba(255,255,255,0.5);
-	border-radius: 145%;
+	border-radius: 1%;
 }
 
 .h-img-6{
@@ -627,7 +627,7 @@
 	}
 	75%{
 		opacity: .75;
-		transform: rotateX(30deg) translateY(5vh);
+		transform: translateY(2vh);
 	}
 	100%{
 		opacity: 0;
@@ -648,7 +648,6 @@
 	text-transform: capitalize;
 	font-size:100px;
 	animation: intro 2.5s ease-in 1;
-	
 }
 
 .intro3 {
@@ -661,7 +660,7 @@
 	font-size:100px;
 	text-transform: capitalize;
 	animation: intro 1.3s ease-in 1;
-	
+	z-index: 1;
 }
 
 .intro2 {
@@ -937,10 +936,8 @@ display: none;
 		padding-top: 15%;
 	}
 
-
-
 	.signal{
-		padding-top: 15%;
+		padding-top: 10%;
 	}
 
 	
@@ -963,13 +960,12 @@ display: none;
 		font-size: 60px;
 		line-height: 1.5;
 		padding: 0 15% 2.5% 15%;
-		display: none;
 	}
 
 	.intro1 {
 		flex: 1;
 		font-size: 60px;
-		padding: 50% 5% 0px 5%;
+		padding: 30% 5% 15% 5%;
 		margin-bottom: 0px;
 	}
 
