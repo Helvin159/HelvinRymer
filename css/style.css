@@ -1181,26 +1181,33 @@ body {
 
 	.template1{
 		padding-top: 10%;
+		height: 100vh;
 	}
 
 	.template2{
 		padding-top: 10%;
+		height: 100vh;
 	}
 
 	.ptax{
 		padding-top: 10%;
+		height: 100vh;
 	}
 
 	.ufr{
 		padding-top: 10%;
+		height: 100vh;
 	}
 
 	.template3{
 		padding-top: 10%;
+		height: 100vh;
 	}
 
 	.bumblee{
 		padding-top: 10%;
+		height: 100vh;
+		margin-top: 0px;
 	}
 
 	hr {
@@ -1333,7 +1340,7 @@ body {
 	}
 
 	.intro1 {
-		flex: 1;
+		flex: .6;
 		font-size: 50px;
 		padding: 30% 5% 5% 5%;
 		margin-bottom: 0px;
@@ -1380,7 +1387,7 @@ body {
 	}
 
 	html{
-		width: 100%;
+		width: 100vw;
 		height: auto;
 		margin: 0px;
 		overflow-x: hidden;
