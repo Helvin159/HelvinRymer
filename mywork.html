@@ -4,7 +4,9 @@
 	<meta name="viewport" content="width=device-width, max-scale=1">
 	<title>Helvin Rymer</title>
 	<link href="css/style.css" rel="stylesheet">
-<script src="https://kit.fontawesome.com/3f2d85e662.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/3f2d85e662.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -57,27 +59,26 @@
 			</ul>
 		</nav>
 
-
-
 	<div class="bumblee" id="bumblee">
 		<h1 class="workh1">Bumblee Tattoo's</h1>
-		<div class="content">
-			<div class="cat">
+		<div class="content" >
+			<div class="cat" data-aos="fade-up-right">
 				<img src="css/Octocats/octocat6-6.png" >
 			</div>
-			<div class="normalview">
+			<div class="normalview"data-aos="fade-in" >
 				<img src="css/img/melii.png">
 			</div>
-			<div class="phoneview">
+			<div class="phoneview"data-aos="fade-up-left">
 			<img src="css/img/bumbleephone.png" >
 			</div>
 		</div>
 		<a class="linkbutton" href="https://helvin159.github.io/MelliiTats/" target="_blank">View Live Site</a>
+		<a class="nextdiv" href="#template3" ><i class="far fa-arrow-alt-circle-down"></i></a>
 	</div>
 
-	<div class="template3">
+	<div class="template3" id="template3">
 		<h1 class="workh1">Template 3</h1>
-		<div class="content">
+		<div class="content" data-aos="fade-right">
 			<div class="phoneview leftphone">
 			<img src="css/img/temp3phone.png" >
 			</div>
@@ -89,11 +90,12 @@
 			</div>
 		</div>
 		<a class="linkbutton" href="https://helvin159.github.io/Template-3/" target="_blank">View Live Site</a>
+		<a class="nextdiv" href="#ufr" ><i class="far fa-arrow-alt-circle-down"></i></a>
 	</div>
 
-	<div class="ufr">
+	<div class="ufr" id="ufr">
 		<h1 class="workh1">UFR</h1>
-		<div class="content">
+		<div class="content" data-aos="fade-left">
 			<div class="cat">
 				<img src="css/Octocats/octocat19-1.png">
 			</div>
@@ -105,11 +107,12 @@
 			</div>
 		</div>
 		<a class="linkbutton" href="https://helvin159.github.io/UFR/" target="_blank">View Live Site</a>
+		<a class="nextdiv" href="#template2" ><i class="far fa-arrow-alt-circle-down"></i></a>
 	</div>
 
-	<div class="template2">
+	<div class="template2" id="template2">
 		<h1 class="workh1">Template 2</h1>
-		<div class="content">
+		<div class="content" data-aos="fade-up">
 			<div class="phoneview leftphone">
 			<img src="css/img/temp2phone.png" >
 			</div>
@@ -121,27 +124,29 @@
 			</div>
 		</div>
 		<a class="linkbutton" href="https://helvin159.github.io/Template-2/" target="_blank">View Live Site</a>
+		<a class="nextdiv" href="#ptax" ><i class="far fa-arrow-alt-circle-down"></i></a>
 	</div>
 
-	<div class="ptax">
+	<div class="ptax" id="ptax">
 		<h1 class="workh1">Perfect Tax Multi-Service</h1>
-		<div class="content">
-			<div class="cat">
+		<div class="content" >
+			<div class="cat" data-aos="fade-up-right">
 				<img src="css/Octocats/octocat10-10.png">
 			</div>
-			<div class="normalview">
+			<div class="normalview" data-aos="fade-in">
 				<img src="css/img/ptax.png">
 			</div>
-			<div class="phoneview">
+			<div class="phoneview" data-aos="fade-up-left">
 			<img src="css/img/ptaxphone.png" >
 			</div>
 		</div>
 		<a class="linkbutton" href="https://helvin159.github.io/Perfect-Tax/" target="_blank">View Live Site</a>
+		<a class="nextdiv" href="#template1" ><i class="far fa-arrow-alt-circle-down"></i></a>
 	</div>
 
-	<div class="template1">
+	<div class="template1" id="template1">
 		<h1 class="workh1">Template 1</h1>
-		<div class="content">
+		<div class="content" data-aos="fade-in">
 			<div class="phoneview leftphone">
 			<img src="css/img/temp1phone.png" >
 			</div>
@@ -153,8 +158,8 @@
 			</div>
 		</div>
 		<a class="linkbutton" href="https://helvin159.github.io/Template-1/" target="_blank">View Live Site</a>
+		<a class="nextdiv" href="#bumblee" ><i class="far fa-arrow-alt-circle-up"></i></a>
 	</div>
-
 
 	<div id="contact">
 		<div id="contactinfo">
@@ -236,5 +241,10 @@
 		<p>Helvin Rymer | 1460 Inwood Avenue, Bronx, NY 10452 | Web Developer | Content Creator | Social Media Management</p>
 	</footer>
 
-	<script> </script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			easing: 'ease-in',
+		});
+	</script>
 </body></html>
