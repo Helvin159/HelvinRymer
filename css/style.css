@@ -54,16 +54,6 @@
 }
 
 
-/*
-.myworkpage2 {
-	display: flex;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	justify-content: center;
-}
-*/
-
 /*Contact & Send A Message*/
 
 .fm{
@@ -246,6 +236,69 @@
 	height: auto;
 }
 
+.workview img{
+	width: 360px;
+}
+
+.workview i{
+	font-size: 270px;
+	margin: 1% 0 0 0;
+	animation:laptop 20s linear infinite;
+
+}
+
+@keyframes laptop{
+	0%{
+	}
+	10%{}
+	20%{
+	}
+	30%{
+	}
+	40%{
+	}
+	50%{
+		transform: rotateY(720deg);
+	}
+	60%{}
+	70%{
+	}
+	80%{}
+	90%{
+	}
+		100%{
+
+	}
+}
+
+.icon{
+	flex: 1.5;
+}
+
+.mycat{
+	flex: .7;
+}
+
+.workview{
+	width: 45%;
+	padding: 5%;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.viewmywork{
+	flex-direction: row;
+	margin: 0;
+	height: auto;
+	width: 100%;
+	display: flex;
+}
+
+.worklife{
+	width: 100vw;
+	height: auto;
+	text-align: center;
+}
 
 /*My Work Section*/
 #followme {
@@ -1165,6 +1218,22 @@ body {
 		height: 100vh;
 		margin-right: 0px;
 		padding-right: 0px;
+	}
+	
+	.workview i{
+		font-size: 220px;
+		margin: auto;
+		margin-left: 2.5%;
+	}
+	.icon h1{
+		font-size: 22px;
+}
+	
+	.worklife h1{
+		width: 90%;
+	}
+	.viewmywork{
+		display: inline-block;
 	}
 
 	.h-img-10{
