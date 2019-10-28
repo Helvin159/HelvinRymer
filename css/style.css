@@ -493,11 +493,12 @@
 	width: 55%;
 	height: auto;
 	margin: 0;
+	margin-top: 15%;
 }
 
 .phoneview{
 	width: 25%;
-	flex: 1.2;
+	flex: 1;
 /*
 	padding: .5% 0;
 	margin-top: 1.5%;
@@ -530,6 +531,10 @@
 	padding: 2.5% 2%;
 	margin-top: 1.5%;
 */
+}
+
+.rightcat img{
+	transform: rotateY(180deg)
 }
 
 .content{
@@ -622,9 +627,6 @@
 	position: relative;
 }
 
-.rightcat{
-	transform: rotateY(180deg)
-}
 
 .template1{
 	width: 100vw;
