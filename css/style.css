@@ -1342,6 +1342,9 @@ body {
 
 	.signal{
 		padding-top: 0;
+		padding-bottom: 5%;
+		margin: 0px;
+		margin-bottom: 0px;
 	}
 
 	.intro5 {
@@ -1380,7 +1383,7 @@ body {
 	}
 
 	.intro1 {
-		flex: .6;
+		flex: .5;
 		font-size: 50px;
 		padding: 30% 5% 5% 5%;
 		margin-bottom: 0px;
