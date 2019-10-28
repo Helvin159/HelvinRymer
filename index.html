@@ -5,6 +5,8 @@
 	<title>Helvin Rymer</title>
 	<link href="css/style.css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/3f2d85e662.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	
 </head>
 
 <body>
@@ -30,7 +32,7 @@
 			<h1>What I Do?</h1>
 		</div>
 
-		<div class="highlights">
+		<div class="highlights" data-aos="fade-in">
 		<div id="hireme" class="highs">
 			<h2 class="heading2">Front End Web Design</h2>
 			<p>I love working on web designs. Structures and styling are my particular strengths and is something I enjoy working on very much. </p>
@@ -54,10 +56,10 @@
 
 	<div id="aboutme">
 		<h1 class="heading1">My Details</h1>
-		<div id="headshot1">
+		<div id="headshot1" data-aos="fade-in">
 			<img class="headshot" src="assets/img/Headshot.jpg">
 		</div>
-		<div id="paragraph">
+		<div id="paragraph" data-aos="fade-in">
 			<p>
 				Helvin Rymer is a rookie freelance web designer, developing sites as of September 2019. Studying Computer Information System, and following up with studies in Web Development with a focus on Bash, HTML5 and CSS. Prior to Web Development, Mr. Rymer has had experience working in real estate as a salesperson and managing his own social media presence successfully. He has earned leadership awards in his previous position and has proven to be someone who shows great pride and professionalism in his work. Currently, Mr. Rymer is working on several websites for multiple clients that include UFR, Perfect Tax Multi-Service, Playa Azul and others.
 				<br>
@@ -88,7 +90,7 @@
 	<hr>
 -->
 
-	<div id="contact">
+	<div id="contact" data-aos="fade-in">
 		<div id="contactinfo">
 			<h2 class="getintouch2">Get In Touch</h2>
 			<div id="contactdetails">
@@ -171,4 +173,11 @@
 	</footer>
 
 	<script> </script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	
+	<script>
+		AOS.init({
+			easing: 'ease-in',
+		});
+	</script>
 </body></html>
