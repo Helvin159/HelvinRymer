@@ -592,6 +592,7 @@
 	font-size: 20px;
 	cursor: pointer;
 	margin: 0 0 0 2.5%;
+	text-align: center;
 	text-decoration: none;
 }
 
@@ -622,11 +623,10 @@
 	width: 25%;
 	font-size: 45px;
 	color: #fff;
-	left: 78%;
-	bottom: 6vh;
-	position: relative;
+	left: 85%;
+	bottom: 10%;
+	position: absolute;
 }
-
 
 .template1{
 	width: 100vw;
@@ -634,6 +634,7 @@
 	margin-top: 0px;
 	background-color: #A4243B;
 	padding: 2.5%;
+	position: relative;
 }
 
 .ptax{
@@ -643,6 +644,7 @@
 	color: #000;
 	background-color: #9D9DE9;
 	padding: 2.5%;
+	position: relative;
 }
 
 .template2{
@@ -651,6 +653,7 @@
 	margin-top: 0px;
 	background-color: #1F2126;
 	padding: 2.5%;
+	position: relative;
 }
 
 .ufr{
@@ -659,6 +662,7 @@
 	margin-top: 0px;
 	background-color: #550527;
 	padding: 2.5%;
+	position: relative;
 }
 
 .template3{
@@ -667,6 +671,7 @@
 	margin-top: 0px;
 	background-color: #2A2D34;
 	padding: 2.5%;
+	position: relative;
 }
 
 .bumblee{
@@ -675,37 +680,10 @@
 	margin-top: 0px;
 	padding: 2.5%;
 	background-color: #B13330;
+	position: relative;
 }
 
-#featured a {
-	text-decoration: none;
-	transition: 350ms;
-}
-
-#featured h1 {
-	padding: 30px;
-}
-
-#featured {
-	width: 100%;
-	height: auto;
-	text-align: center;
-}
-
-@keyframes intro{
-	0%{
-		opacity: 0;
-	}
-	25%{
-		opacity: 0;
-	}
-	75%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
-}
+/*Universal*/
 
 .signal a{
 	text-decoration: none;
@@ -962,6 +940,21 @@
 	
 }
 
+@keyframes intro{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
 #intro2{
 	background-color: #2E2E3A;
 	height: 100vh;
@@ -1021,7 +1014,6 @@ nav{
 		}
 	}
 
-/*Universal*/
 
 hr {
 	margin: 5% auto;
@@ -1195,14 +1187,16 @@ body {
 	}
 
 	.linkbutton{
-		padding: 3%;
-		margin-top: 5%;
+		padding: 1.5%;
+		margin-top: 1%;
 		display: block;
 	}
 
 	.nextdiv{
 		display: block;
-		margin-bottom: 15%;
+		top: 91%;
+		font-size: 30px;
+		left: 80%;
 	}
 
 	
@@ -1265,19 +1259,21 @@ body {
 		margin-right: 0px;
 		padding-right: 0px;
 	}
-	
+
 	.workview i{
 		font-size: 220px;
 		margin: auto;
 		margin-left: 2.5%;
 	}
+
 	.icon h1{
 		font-size: 22px;
 }
-	
+
 	.worklife h1{
 		width: 90%;
 	}
+
 	.viewmywork{
 		display: inline-block;
 	}
