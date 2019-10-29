@@ -226,7 +226,7 @@
 }
 
 #aboutme img{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.2);
 }
 
 #aboutme {
@@ -244,6 +244,7 @@
 	color: #550527;
 	transition: .5s ease-in;
 }
+
 .workview i{
 	font-size: 270px;
 	margin: 1% 0 0 0;
@@ -349,146 +350,6 @@
 }
 
 
-/*
-.main-content {
-	display: block;
-	padding: 10%;
-	flex: 1 1 80%;
-	height: auto;
-	position: relative;
-}
-
-.portfolio {
-	display: grid;
-	height: 80%;
-	grid-template-rows: repeat(6, 1fr);
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 10px;
-
-}
-
-.portfolio-item a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 35px;
-	width: 90%;
-	height: 85%;
-}
-
-.portfolio-item {
-	background-color: rgba(2, 17, 27, 0.5);
-	color: #FAFAFF;
-	font-weight: 350;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-}
-
-.medium {
-	grid-row: span 2;
-	grid-column: span 2;
-}
-
-.large {
-	grid-row: span 3;
-	grid-column: span 3;
-}
-
-.tall {
-	grid-row: span 3;
-	grid-column: span 2;
-}
-
-.wide {
-	grid-row: span 2;
-	grid-column: span 3;
-}
-
-.portfolio-item:hover {
-	transform: scale(1.02);
-	font-size: 26px;
-	cursor: pointer;
-	color:
-}
-
-.ufr {
-	background-image: url(img/UFRPAGE.png);
-	color: #FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: bottom right;
-	transition: all ease-in-out 1s;
-	position: relative;
-}
-
-.meliitats {
-	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/melii.png);
-	color: #FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position: relative;
-}
-
-.three {
-	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/Template2.png);
-	color: #FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position: relative;
-}
-
-.four {
-	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/ptax.png);
-	color: #FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position: relative;
-}
-
-.perfecttax {
-	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/temp3.png);
-	color: #FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position: relative;
-
-}
-
-.six {
-	background-image: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/Castillo1.png);
-	color: #FAFAFF;
-	text-shadow: -1px 1px 5px #fff;
-	font-size: 25px;
-	background-size: cover;
-	background-position: center;
-	transition: all ease-in-out 1s;
-	position: relative;
-}
-
-#grid {
-	margin: auto;
-	height: 500px;
-	width: 80%;
-	padding-top: 50px;
-	padding-bottom: 0px
-}
-*/
-
 .phoneview img{
 	width: 55%;
 	height: auto;
@@ -499,10 +360,6 @@
 .phoneview{
 	width: 25%;
 	flex: 1;
-/*
-	padding: .5% 0;
-	margin-top: 1.5%;
-*/
 }
 
 .normalview img{
@@ -1002,7 +859,8 @@ nav{
 	top: 0;
 	width: 100%;
 	height:4.5%;
-		animation: nav 1s ease-in 1;
+	z-index: 1;
+	animation: nav 1s ease-in 1;
 }
 
 	@keyframes nav{
@@ -1182,8 +1040,7 @@ body {
 
 	.normalview{
 		width: 95%;
-		margin-right: 4.5%;
-		margin-bottom: 2.5%;
+		margin: auto;
 	}
 
 	.linkbutton{
