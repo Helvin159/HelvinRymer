@@ -355,101 +355,19 @@
 }
 
 .pagesc3{
-	animation: pagesc3 70s ease-in-out infinite;
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
+	background-size: cover;
 }
 
-@keyframes pagesc3{
-	0%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
-		background-size: cover;
-		20%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
-		background-size: cover;
-		}
-	}
-	40%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp4.png);
-		background-size: cover;
-	}
-	60%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
-		background-size: cover;
-
-	}
-	80%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp3.png);
-		background-size: cover;
-	}
-	100%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp2.png);
-		background-size: cover;
-	}
-}
 
 .pagesc2{
-	animation: pagesc2 50s ease-in-out infinite;
-}
-
-@keyframes pagesc2{
-	0%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp1.png);
-		background-size: cover;
-		20%{
-			transition:.5s;
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/ptax.png);
-		background-size: cover;
-		}
-	}
-	40%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
-		background-size: cover;
-	}
-	60%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp3.png);
-		background-size: cover;
-
-	}
-	80%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
-		background-size: cover;
-	}
-	100%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
-		background-size: cover;
-	}
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
+	background-size: cover;
 }
 
 .pagesc1{
-	animation: pagesc1 60s ease-in-out infinite;
-}
-
-@keyframes pagesc1{
-	0%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
-		background-size: cover;
-		20%{
-			transition:.5s;
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
-		background-size: cover;
-		}
-	}
-	40%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
-		background-size: cover;
-	}
-	60%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp1.png);
-		background-size: cover;
-
-	}
-	80%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp4.png);
-		background-size: cover;
-	}
-	100%{
-		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/ptax.png);
-		background-size: cover;
-	}
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
+	background-size: cover;
 }
 
 .pagesc{
