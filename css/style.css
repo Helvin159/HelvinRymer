@@ -1050,6 +1050,21 @@ body {
 		margin: auto;
 	}
 
+	.pages a{
+		font-size: 25px;
+		padding: 2.5% 3.5%;
+	}
+
+	.pagesc{
+		margin: 2.5% auto;
+		width: 90%
+	}
+
+	.pages{
+		display: block;
+		
+	}
+
 	.highs{
 		padding: 0 2.5%;
 		margin: 0 1% 2.5% 2.5%;
