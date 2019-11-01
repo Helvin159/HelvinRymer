@@ -349,6 +349,152 @@
 	width: 100%;
 }
 
+.pagesc:hover{
+	transform: scale(1.05);
+	transition: .5s ease-out;
+}
+
+.pagesc3{
+	animation: pagesc3 70s ease-in-out infinite;
+}
+
+@keyframes pagesc3{
+	0%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
+		background-size: cover;
+		20%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
+		background-size: cover;
+		}
+	}
+	40%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp4.png);
+		background-size: cover;
+	}
+	60%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
+		background-size: cover;
+
+	}
+	80%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp3.png);
+		background-size: cover;
+	}
+	100%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp2.png);
+		background-size: cover;
+	}
+}
+
+.pagesc2{
+	animation: pagesc2 50s ease-in-out infinite;
+}
+
+@keyframes pagesc2{
+	0%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp1.png);
+		background-size: cover;
+		20%{
+			transition:.5s;
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/ptax.png);
+		background-size: cover;
+		}
+	}
+	40%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
+		background-size: cover;
+	}
+	60%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp3.png);
+		background-size: cover;
+
+	}
+	80%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
+		background-size: cover;
+	}
+	100%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
+		background-size: cover;
+	}
+}
+
+.pagesc1{
+	animation: pagesc1 60s ease-in-out infinite;
+}
+
+@keyframes pagesc1{
+	0%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp8.png);
+		background-size: cover;
+		20%{
+			transition:.5s;
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
+		background-size: cover;
+		}
+	}
+	40%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
+		background-size: cover;
+	}
+	60%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp1.png);
+		background-size: cover;
+
+	}
+	80%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp4.png);
+		background-size: cover;
+	}
+	100%{
+		background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/ptax.png);
+		background-size: cover;
+	}
+}
+
+.pagesc{
+	flex:1;
+	height: 100px;
+	padding: 2.5%;
+	margin:5% 1.5%;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 6px 7px rgba(0,0,0,0.5);
+}
+
+.pages a{
+	width: auto;
+	height: auto;
+	font-size: 40px;
+	padding: 5%;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #E8E9EB;
+	background-color: rgba(42,45,52,0.5);
+}
+
+.pages a:hover{
+	background-color:#E8E9EB;
+	color:#2A2D34;
+	transition: .35s ease-in;
+}
+
+.pages{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.pagescontainer h1{
+	margin-bottom: 0px;
+	font-size: 40px;
+}
+
+.pagescontainer{
+	width: 100vw;
+	height: auto;
+	text-align: center;
+}
 
 .phoneview img{
 	width: 55%;
