@@ -354,6 +354,10 @@
 	transition: .5s ease-out;
 }
 
+.pagesc4{
+	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/wordpress.png);
+	background-size: cover;
+}
 .pagesc3{
 	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
 	background-size: cover;
@@ -383,23 +387,16 @@
 .pages a{
 	width: auto;
 	height: auto;
-	font-size: 40px;
+	font-size: 35px;
 	padding: 5%;
 	border-radius: 5px;
 	text-decoration: none;
 	color: #E8E9EB;
-	background-color: rgba(42,45,52,0.5);
 }
-
-.pages a:hover{
-	background-color:#E8E9EB;
-	color:#2A2D34;
-	transition: .35s ease-in;
-}
-
 .pages{
 	width: 100%;
 	height: auto;
+	flex-wrap: wrap;
 	display: flex;
 }
 
