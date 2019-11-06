@@ -393,6 +393,7 @@
 	text-decoration: none;
 	color: #E8E9EB;
 }
+
 .pages{
 	width: 100%;
 	height: auto;
@@ -546,26 +547,7 @@
 	position: absolute;
 }
 
-.template1{
-	width: 100vw;
-	height: 100vh;
-	margin-top: 0px;
-	background-color: #A4243B;
-	padding: 2.5%;
-	position: relative;
-}
-
-.ptax{
-	width: 100vw;
-	height: 100vh;
-	margin-top: 0px;
-	color: #000;
-	background-color: #9D9DE9;
-	padding: 2.5%;
-	position: relative;
-}
-
-.template2{
+.jobsix{
 	width: 100vw;
 	height: 100vh;
 	margin-top: 0px;
@@ -574,7 +556,26 @@
 	position: relative;
 }
 
-.ufr{
+.jobfive{
+	width: 100vw;
+	height: 100vh;
+	margin-top: 0px;
+	color: #000;
+	background-color: #550527;
+	padding: 2.5%;
+	position: relative;
+}
+
+.jobfour{
+	width: 100vw;
+	height: 100vh;
+	margin-top: 0px;
+	background-color: #1F2126;
+	padding: 2.5%;
+	position: relative;
+}
+
+.jobthree{
 	width: 100vw;
 	height: 100vh;
 	margin-top: 0px;
@@ -583,7 +584,7 @@
 	position: relative;
 }
 
-.template3{
+.jobtwo{
 	width: 100vw;
 	height: 100vh;
 	margin-top: 0px;
@@ -592,12 +593,12 @@
 	position: relative;
 }
 
-.bumblee{
+.jobone{
 	width: 100vw;
 	height: 100vh;
 	margin-top: 0px;
 	padding: 2.5%;
-	background-color: #B13330;
+	background-color: #550527;
 	position: relative;
 }
 
@@ -1146,32 +1147,32 @@ body {
 		display: inline-block;
 	}
 
-	.template1{
+	.jobsix{
 		padding-top: 10%;
 		height: 100vh;
 	}
 
-	.template2{
+	.jobfour{
 		padding-top: 10%;
 		height: 100vh;
 	}
 
-	.ptax{
+	.jobfive{
 		padding-top: 10%;
 		height: 100vh;
 	}
 
-	.ufr{
+	.jobthree{
 		padding-top: 10%;
 		height: 100vh;
 	}
 
-	.template3{
+	.jobtwo{
 		padding-top: 10%;
 		height: 100vh;
 	}
 
-	.bumblee{
+	.jobone{
 		padding-top: 10%;
 		height: 100vh;
 		margin-top: 0px;
