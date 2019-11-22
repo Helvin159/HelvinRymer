@@ -358,11 +358,11 @@
 	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/wordpress.png);
 	background-size: cover;
 }
+
 .pagesc3{
 	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/temp5.png);
 	background-size: cover;
 }
-
 
 .pagesc2{
 	background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/melii.png);
@@ -933,7 +933,6 @@ nav{
 			opacity: 1;
 		}
 	}
-
 
 hr {
 	margin: 5% auto;
