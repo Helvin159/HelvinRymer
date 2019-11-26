@@ -65,11 +65,11 @@ footer ul{
 }
 
 #bgmusic{
-	width: 9%;
-	height: 110px;
+	width: 7%;
+	height: 100px;
 	display: none;
 	position:fixed;
-	right:.5%;
+	right:1%;
 	top:9%;
 	border: 2px solid red;
 }
