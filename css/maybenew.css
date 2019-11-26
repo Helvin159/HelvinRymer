@@ -51,6 +51,11 @@ footer ul{
 	list-style-type: none;
 }
 
+footer mark{
+	background-color: red;
+	border-radius: 10px;
+}
+
 #openbtn{
 	position:fixed;
 	right:1%;
@@ -113,9 +118,14 @@ caro{
 	bottom: 10%;
 }
 
+#tsheading mark{
+	background-color: red;
+	border-radius: 10px;
+}
+
 #tsheading{
 	position: absolute;
-	margin-top: 5%;
+	top: 20%;
 	transform: skewX(25deg) skewY(5deg);
 }
 
@@ -124,16 +134,15 @@ caro{
 	margin: 15% auto 5% auto;
 }
 
-
 #showcaseparent{
 	padding: 15%;
 	min-height: 100vh;
+	position: relative;
 }
-
 
 .section mark{
 	background-color: red;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .titlenum{
@@ -266,7 +275,7 @@ caro{
 
 .herocontent mark{
 	background-color: red;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .herocontent {
