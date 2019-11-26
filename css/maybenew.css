@@ -184,7 +184,6 @@ caro{
 	padding: 5%;
 }
 
-
 #heroimg2{
 	width: 90%;
 	height: auto;
@@ -276,10 +275,18 @@ caro{
 	position: relative;
 }
 
+#madein{
+	position: absolute;
+	top: 88%;
+	left: 80%;
+	transform: rotateZ(-25deg);
+}
+
 .hero{
 	height: 100vh;
 	width: 100vw;
 	padding: 2.5%;
+	position: relative;
 	background:linear-gradient(0deg, rgba(0,0,0,0.97), rgba(0,0,0,0.9)), url(img/bgimage);
 	background-size: cover;
 	background-attachment: fixed;
