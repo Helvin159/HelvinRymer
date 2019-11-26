@@ -52,7 +52,26 @@ footer ul{
 }
 
 
+#openbtn{
+	position:fixed;
+	right:1%;
+	top:1%;
+}
+#closebtn{
+	display: none;
+	position:fixed;
+	right:1%;
+	top:1%;
+}
 
+#bgmusic{
+	width: 15%;
+	height: 100px;
+	display: none;
+	position:fixed;
+	right:1%;
+	top:7%;
+}
 
 
 

@@ -456,8 +456,12 @@
 		</div>
 	</div>
 
-
-
+<div class="container">
+<button class="btn btn-outline-danger" id="openbtn">Music Controls</button>
+<button class="btn btn-outline-danger" id="closebtn">Close</button>
+	<br>
+<iframe id="bgmusic" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/256241343&color=%234d433b&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" style="display:; border-radius: 10px;"></iframe>
+</div>
 
 	<!--More Projects-->
 	<div class="container-fluid">
@@ -561,9 +565,6 @@
 		$('.hero').mouseover(function(){
 			$('.herocontent').css("opacity",1);
 		});
-		$('.hero').mouseleave(function(){
-			$('.herocontent').css("opacity",0);
-		});
 
 		$('.downarrow').mouseover(function(){
 			$(this).css("transition", "2s ease-in-out")
@@ -650,6 +651,17 @@
 			$(this).css("transition", ".6s ease-out");
 		});
 
+		$('#openbtn').click(function(){
+			$('#bgmusic').show();
+			$('#closebtn').show();
+			$('#openbtn').hide();
+		});
+		$('#closebtn').click(function(){
+			$('#bgmusic').hide();
+			$('#closebtn').hide();
+			$('#openbtn').show();
+		});
+		
 /*
 $('.showcase').mouseover(function(){
 $('#showcaseparent').css("transition", "1s ease-in-out");
