@@ -21,6 +21,13 @@
 			$('.heroitem').css("transition", "3s ease-in")
 			$('.heroitem').css("opacity", "1");
 		});
+		$('#madein').mouseover(function() {
+			$('.heroimg').css("transform", "rotateY(180deg) translateX(370px) translateY(-100px)");
+			$('.heroimg').css("transition", "1.3s ease-in-out");
+			$('.heroitem').show();
+			$('.heroitem').css("transition", "3s ease-in")
+			$('.heroitem').css("opacity", "1");
+		});
 
 		$('.heroitem').mouseover(function() {
 			$('.heroimg').css("transform", "translateX(-300px) translateY(-130px)");
@@ -30,9 +37,9 @@
 			$('.herocontent').css("opacity",1);
 		});
 
-		$('.downarrow').mouseover(function(){
-			$(this).css("transition", "2s ease-in-out")
-			$(this).css("transform","rotateY(1600deg)")
+		$('#madein').mouseover(function(){
+			$('.downarrow').css("transition", "2s ease-in-out")
+			$('.downarrow').css("transform","rotateY(1600deg)")
 		});
 
 		$('.downarrow').mouseleave(function(){

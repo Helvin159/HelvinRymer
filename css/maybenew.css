@@ -24,15 +24,16 @@ li{
 h1, h2, h3, h4, h5, h6{
 	color: #F2F5EA;
 	font-family: 'Sedgwick Ave Display', cursive;
-
 }
 
 p{
 	color: #F2F5EA;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	line-height: 2;
 	padding: 2.5%;
 }
+
+
 
 button, .btn{
 	font-family: 'Permanent Marker', cursive;
@@ -81,6 +82,28 @@ footer mark{
 	border: 2px solid red;
 }
 
+.backToTop i{
+	font-size: 60px;
+}
+
+.backToTop mark{
+	background-color: red;
+	border-radius: 10px;
+}
+
+.backToTop a:hover{
+	transition: 350ms ease-in;
+	color: red;
+}
+
+.backToTop a{
+	text-decoration: none;
+	color: white;
+}
+
+.backToTop{
+	text-align: center;
+}
 
 
 
@@ -90,9 +113,27 @@ footer mark{
 
 
 
+.descript iframe{
+	width: 100%;
+	height: 80%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: -4px 4px 15px rgba(20,20,20,0.5);
+}
 
+.descript mark{
+	background-color: red;
+	border-radius: 10px;
+}
 
+.descript p{
+	font-size: 20px;
+}
 
+.descript{
+	min-height: auto;
+	
+}
 
 #showcaseparent mark{
 	background-color: red;
