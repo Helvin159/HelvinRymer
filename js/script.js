@@ -80,7 +80,7 @@
 		$('#section4').mouseover(function(){
 			$(this).css("transition", ".5s ease-in-out");
 			$(this).css("opacity", 1);
-			$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/temp6.png)");
+			$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/UFRPAGE.png)");
 			$(this).css("background-size", "cover");
 			$(this).css("background-attachment", "fixed");
 			$('#title4').css("animation", "slidein 2s 1");
@@ -90,7 +90,7 @@
 		$('#section5').mouseover(function(){
 			$(this).css("transition", ".5s ease-in-out");
 			$(this).css("opacity", 1);
-			$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/temp7.png)");
+			$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/ptax.png)");
 			$(this).css("background-size", "cover");
 			$(this).css("background-attachment", "fixed");
 			$('#title5').css("animation", "slidein 2s 1");
