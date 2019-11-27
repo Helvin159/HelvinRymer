@@ -21,16 +21,13 @@
 			$('.heroitem').css("transition", "3s ease-in")
 			$('.heroitem').css("opacity", "1");
 		});
-		$('#madein').mouseover(function() {
-			$('.heroimg').css("transform", "rotateY(180deg) translateX(370px) translateY(-100px)");
-			$('.heroimg').css("transition", "1.3s ease-in-out");
-			$('.heroitem').show();
-			$('.heroitem').css("transition", "3s ease-in")
-			$('.heroitem').css("opacity", "1");
-		});
+
 
 		$('.heroitem').mouseover(function() {
 			$('.heroimg').css("transform", "translateX(-300px) translateY(-130px)");
+		});
+		$('.heroitem').mouseout(function() {
+			$('.heroimg').css("transform", "rotateY(180deg) translateX(370px) translateY(-100px)");
 		});
 
 		$('.hero').mouseover(function(){

@@ -43,6 +43,16 @@ footer i{
 	font-size: 25px;
 }
 
+footer a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+footer a{
+	text-decoration: none;
+	color:#60656F;
+}
+
 footer li{
 	display: inline-block;
 	padding: 1%;
@@ -111,7 +121,15 @@ footer mark{
 
 
 
+.morepjs a:hover{
+	color: red;
+	text-decoration: none;
+}
 
+.morepjs a{
+	text-decoration: none;
+	color:#60656F;
+}
 
 .descript iframe{
 	width: 100%;
