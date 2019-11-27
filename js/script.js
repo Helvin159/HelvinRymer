@@ -124,7 +124,7 @@
 
 		$('#openbtn').click(function(){
 			$('#bgmusic').show();
-			$('#bgmusic').css("border-radius", "50%");
+			$('#bgmusic').css("border-radius", "10px");
 			$('#closebtn').show();
 			$('#openbtn').hide();
 		});
