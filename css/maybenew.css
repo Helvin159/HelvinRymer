@@ -76,6 +76,7 @@ footer ul{
 footer mark{
 	background-color: red;
 	border-radius: 10px;
+	color: #F2F5EA;
 }
 
 #openbtn{
@@ -108,6 +109,7 @@ footer mark{
 .backToTop mark{
 	background-color: red;
 	border-radius: 10px;
+	color: #F2F5EA;
 }
 
 .backToTop a:hover{
@@ -149,6 +151,7 @@ footer mark{
 .descript mark{
 	background-color: red;
 	border-radius: 10px;
+	color: #F2F5EA;
 }
 
 .descript p{
@@ -163,6 +166,7 @@ footer mark{
 #showcaseparent mark{
 	background-color: red;
 	border-radius: 5px;
+	color: #F2F5EA;
 }
 
 .mobileimg img{
@@ -189,6 +193,7 @@ caro{
 #tsheading mark{
 	background-color: red;
 	border-radius: 10px;
+	font-size: #F2F5EA;
 }
 
 #tsheading{
@@ -211,6 +216,7 @@ caro{
 .section mark{
 	background-color: red;
 	border-radius: 10px;
+	color: #F2F5EA;
 }
 
 .titlenum{
@@ -343,6 +349,7 @@ caro{
 
 .herocontent mark{
 	background-color: red;
+	color: #F2F5EA;
 	border-radius: 10px;
 }
 
@@ -425,8 +432,8 @@ caro{
 		z-index:2;
 }
 
-	.descript h1{
-		font-size: 40px;
+	.descript{
+display: none;
 	}
 
 	#tsheading{
@@ -459,6 +466,7 @@ caro{
 		background-color: red;
 		border-radius: 5px;
 		font-family: 'Sedgwick Ave Display', cursive;
+		color: #F2F5EA;
 	}
 
 	.neavbar-nav{

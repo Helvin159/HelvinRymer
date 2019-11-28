@@ -47,7 +47,7 @@ $(document).ready(function() {
 	$('#section1').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/themstill1.png)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/themstill1.png)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title1').css("animation", "slidein 2s 1");
@@ -57,7 +57,7 @@ $(document).ready(function() {
 	$('#section2').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/melii.png)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/melii.png)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title2').css("animation", "slidein 2s 1");
@@ -67,7 +67,7 @@ $(document).ready(function() {
 	$('#section3').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/temp2.png)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/temp2.png)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title3').css("animation", "slidein 2s 1");
@@ -77,7 +77,7 @@ $(document).ready(function() {
 	$('#section4').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/UFRPAGE.png)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/UFRPAGE.png)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title4').css("animation", "slidein 2s 1");
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	$('#section5').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/ptax.png)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/ptax.png)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title5').css("animation", "slidein 2s 1");
@@ -97,7 +97,7 @@ $(document).ready(function() {
 	$('#section6').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/temp10)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/temp10)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title6').css("animation", "slidein 2s 1");
@@ -107,7 +107,7 @@ $(document).ready(function() {
 	$('#section7').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.97),rgba(0,0,0,0.95)),url(css/img/temp11)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.90)),url(css/img/temp11)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title7').css("animation", "slidein 2s 1");
