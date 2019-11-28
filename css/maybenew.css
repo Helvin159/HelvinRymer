@@ -396,22 +396,25 @@ caro{
 }
 
 	#openbtn{
-	top: 8%;
+		top: 1%;
 		font-size:15px;
-	left: 5%;
+		left: 25%;
+		z-index:2;
 }
 
 	#closebtn{
-	top: 8%;
+		top: 1%;
 		font-size:15px;
-	left: 5%;
+		left: 25%;
+		z-index:2;
 }
 
 	#bgmusic{
-		top: 8%;
+		top: 9%;
 		left: 25%;
 		width: 50%;
 		height: 13%;
+		z-index:2;
 }
 
 	#tsheading{
@@ -421,6 +424,7 @@ caro{
 
 	#showcaseparent{
 		height: auto;
+		min-height: auto;
 	}
 
 	.heroitem{
@@ -444,5 +448,6 @@ caro{
 		position: fixed;
 		top: 0;
 		width: 100%;
+		z-index:1;
 	}
 }
