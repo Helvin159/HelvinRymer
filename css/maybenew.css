@@ -419,6 +419,10 @@ caro{
 		top: 10%;
 	}
 
+	#showcaseparent{
+		height: auto;
+	}
+
 	.heroitem{
 	display: none;
 }
