@@ -10,6 +10,15 @@ font-family: 'Open Sans', sans-serif;
 body{
 	margin: 0;
 	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
 }
 
 .img-fluid{
@@ -114,8 +123,6 @@ footer mark{
 .backToTop{
 	text-align: center;
 }
-
-
 
 
 
@@ -364,4 +371,74 @@ caro{
 
 .navbar{
 	z-index: 10;
+}
+
+#mobilenav{
+	display: none;
+}
+
+@media screen and (max-width: 600px){
+
+	body{
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+	html{
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+	#openbtn{
+	top: 8%;
+		font-size:15px;
+	left: 5%;
+}
+
+	#closebtn{
+	top: 8%;
+		font-size:15px;
+	left: 5%;
+}
+
+	#bgmusic{
+		top: 8%;
+		left: 25%;
+		width: 50%;
+		height: 13%;
+}
+
+	#tsheading{
+		font-size: 33px;
+		top: 10%;
+	}
+
+	.heroitem{
+	display: none;
+}
+
+	#madein{
+	left: 30%
+}
+
+	#heroimg{
+		display: none;
+	}
+
+	#primarynav{
+		display: none;
+	}
+
+	#mobilenav{
+		display: block;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
 }
