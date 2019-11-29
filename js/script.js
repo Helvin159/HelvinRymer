@@ -134,10 +134,10 @@ $(document).ready(function() {
 		$('#titlenum7').css("animation", "slidein2 2s 1");
 	});
 
-	$('.section').mouseout(function(){
-		$(this).css("opacity", 0);
-		$(this).css("transition", ".6s ease-out");
-	});
+//	$('.section').mouseout(function(){
+//		$(this).css("opacity", 0);
+//		$(this).css("transition", ".6s ease-out");
+//	});
 
 	$('#openbtn').click(function(){
 		$('#bgmusic').show();
