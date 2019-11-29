@@ -134,6 +134,34 @@ footer mark{
 	color:#60656F;
 }
 
+
+form input{
+	width: 300px;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}
+
+.modal-body textarea{
+	width: 300px;
+}
+
+.modal-body select{
+	width: 300px;
+}
+
+.modal-body{
+	font-family: 'Permanent Marker', cursive;
+	width: 100%
+}
+
+.modal-content{
+	width: 100%
+}
+
+
+
+
 .descript iframe{
 	width: 100%;
 	height: 80%;

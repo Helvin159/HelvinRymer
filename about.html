@@ -20,7 +20,7 @@
 	<form class="form-inline">
 		<a href="index2.html"><button class="btn btn-sm btn-outline-secondary mx-1" type="button">Home</button></a>
 		<a href="about.html"><button class="btn btn-outline-danger mx-1 active" type="button">About</button></a>
-		<button class="btn btn-sm btn-outline-danger mx-1" type="button">Contact</button>
+	<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
 	</form>
 </nav>
 
@@ -308,7 +308,69 @@
 </footer>
 
 
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalCenterTitle"><mark style="color:#fff; background-color:red; border-radius: 5px;font-size: 30px">Contact Me!</mark></h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="modal-body">
+			<!--Form-->
+			<form class="text-center">
+				<label class="text-left">
+					What's your name
+					<br>
+					<input class="my-1" type="text" name="fName" placeholder="Full Name" id="fName">
+				</label>
+				<br>
+				<label class="text-left">
+					What is your email?
+					<br>
+					<input class="my-1" type="email" name="email" placeholder="Email" id="email">
+				</label>
+				<br>
+				<label class="text-left">
+					Do you have a website?
+					<br>
+					<input class="my-1" type="text" name="userWebsite" placeholder="Website (If any...)" id="userWebsite">
+				</label>
+				<br>
+				<label class="text-left">
+					How did you hear about me?
+					<br>
+					<select>
+						<option>- -</option>
+						<option>Referral</option>
+						<option>Social Media</option>
+						<option>Youtube</option>
+						<option>Newsletter</option>
+					<option>Freelancer.com</option>
+						<option>UpWork.com</option>
+						<option>Internet Search</option>
+					</select>
+				</label>
+				<br>
+				<label class="text-left">
+					Questions or Requests?
+					<br>
+					<textarea placeholder="Requests, comments or questions?"></textarea>
+				</label>
+				<br>
+				<label>
+					<input class="btn btn-sm btn-dark" type="submit" id="formSubmitBtn" style="font-family: 'Permanent Marker', cursive;">
+				</label>
+			</form>
+		</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+</div>
+</div>
 
 
 
