@@ -5,7 +5,6 @@ $('.section').css("opacity", 0);
 $('.sectionOne').css("opacity", 1);
 $('.navbar').css("opacity",0);
 
-
 $(document).ready(function() {
 	$('.herocontent').css("transition", "3s ease-in");
 
@@ -14,6 +13,22 @@ $(document).ready(function() {
 	$('.navbar').css("transition", "4s ease-in");
 
 	$('.navbar').css("opacity", 1);
+
+	$('#viewsection6').click(function(){
+	$('.section6').show();
+});
+
+	$('#viewsection7').click(function(){
+	$('.section7').show();
+});
+
+	$('#viewsec6').click(function(){
+	$('.section6').show();
+});
+
+	$('#viewsec7').click(function(){
+	$('.section7').show();
+});
 
 	$('#firsth3').css("animation", "slidein 4s 1");
 

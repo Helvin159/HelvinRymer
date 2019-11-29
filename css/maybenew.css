@@ -196,6 +196,10 @@ footer mark{
 	transform: skewX(25deg) skewY(5deg);
 }
 
+.section6, .section7{
+	display: none;
+}
+
 .showcase{
 	position: relative;
 	margin: 15% auto 5% auto;
@@ -403,7 +407,7 @@ footer mark{
 	width: 100vw;
 	padding: 2.5%;
 	position: relative;
-	background:linear-gradient(0deg, rgba(0,0,0,0.97), rgba(0,0,0,0.9)), url(img/bg2);
+	background:linear-gradient(0deg, rgba(0,0,0,0.97), rgba(0,0,0,0.9)), url(img/bgimage4);
 	background-size: cover;
 	background-attachment: fixed;
 }
