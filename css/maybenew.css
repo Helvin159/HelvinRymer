@@ -42,8 +42,6 @@ p{
 	padding: 2.5%;
 }
 
-
-
 button, .btn{
 	font-family: 'Permanent Marker', cursive;
 }
@@ -125,10 +123,6 @@ footer mark{
 .backToTop{
 	text-align: center;
 }
-
-
-
-
 
 .morepjs a:hover{
 	color: red;
@@ -326,6 +320,25 @@ caro{
 	text-align: left;
 	padding: 2%;
 	transform: skewY(-5deg) skewX(15deg);
+}
+
+@keyframes slideout2{
+	0%{
+		transform: translateX(-600px);
+	}
+	50%{
+	}
+	100%{
+	}
+}
+@keyframes slideout{
+	0%{
+		transform: translateX(-800px);
+	}
+	50%{
+	}
+	100%{
+	}
 }
 
 @keyframes slidein2{

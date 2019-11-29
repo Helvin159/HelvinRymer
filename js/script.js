@@ -14,7 +14,7 @@ $(document).ready(function() {
 	$('#thirdh3').css("animation", "slidein 2s 1");
 	$('#fourthh3').css("animation", "slidein 1s 1");
 
-	$('#herodets').mouseover(function() {
+	$('#herorow1').mouseover(function() {
 		$('.heroimg').css("transform", "rotateY(180deg) translateX(370px) translateY(-100px)");
 		$('.heroimg').css("transition", "1.3s ease-in-out");
 		$('.heroitem').show();
@@ -28,10 +28,6 @@ $(document).ready(function() {
 	});
 	$('.heroitem').mouseout(function() {
 		$('.heroimg').css("transform", "rotateY(180deg) translateX(370px) translateY(-100px)");
-	});
-
-	$('.hero').mouseover(function(){
-		$('.herocontent').css("opacity",1);
 	});
 
 	$('#madein').mouseover(function(){
@@ -53,6 +49,7 @@ $(document).ready(function() {
 		$('#title1').css("animation", "slidein 2s 1");
 		$('#titlenum1').css("animation", "slidein2 2s 1");
 	});
+
 
 	$('#section2').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
