@@ -18,8 +18,9 @@
 <nav class="navbar navbar-dark position-fixed" style="background-color: rgba(0,0,0,0);" id="primarynav">
 	<h3 class="p-3"><mark style="background-color: red;border-radius: 10px; color: #F2F5EA;">Mr. Rymer</mark></h3>
 	<form class="form-inline">
-		<button class="btn btn-outline-danger mx-1" type="button">Home</button>
-		<button class="btn btn-sm btn-outline-secondary mx-1" type="button">About</button>
+		<a href="index2.html"><button class="btn btn-outline-danger mx-1 active" type="button" id="homebtn">Home</button></a>
+		<a href="maybenewabout.html"><button class="btn btn-sm btn-outline-secondary mx-1" type="button" id="aboutbtn">About</button></a>
+		<button class="btn btn-sm btn-outline-secondary mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
 	</form>
 </nav>
 
@@ -845,7 +846,49 @@
 
 
 
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalCenterTitle"><mark style="color:#fff; background-color:red; border-radius: 5px;">Contact Me!</mark></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<label>
+						
+						<input class="my-1" type="text" name="fName" placeholder="Full Name" id="fName">
+					</label>
+					<br>
+					<label>
+						
+						<input class="my-1" type="email" name="email" placeholder="Email" id="email">
+					</label>
+					<br>
+					<label>
+						
+						<input class="my-1" type="text" name="userWebsite" placeholder="Website (If any...)" id="userWebsite">
+					</label>
+					<br>
+					<label>
+						
+						<textarea placeholder="Requests, comments or questions?" style="width: 360px;"></textarea>
+					</label>
+					<br>
+					<label>
+						<input class="btn btn-sm btn-dark" type="submit" id="formSubmitBtn" style="font-family: 'Permanent Marker', cursive;">
+					</label>
+				</form>
+			</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- Optional JavaScript -->
 
