@@ -222,6 +222,13 @@ caro{
 	margin-top: 10%;
 }
 
+.sectionOne{
+	height: auto;
+	min-height: 100vh;
+	width: auto;
+	position: relative;
+}
+
 .section{
 	height: auto;
 	min-height: 100vh;
@@ -331,6 +338,7 @@ caro{
 	100%{
 	}
 }
+
 @keyframes slideout{
 	0%{
 		transform: translateX(-800px);
@@ -350,6 +358,7 @@ caro{
 	100%{
 	}
 }
+
 @keyframes slidein{
 	0%{
 		transform: translateX(-400px);
@@ -463,6 +472,24 @@ display: none;
 		font-size: 33px;
 		top: 10%;
 	}
+
+.mobileimg img{
+	width:17%;
+	left: 0;
+	max-width: 100%;
+	z-index: 2;
+}
+
+.ipadimg img{
+	width:60%;
+	left: 52%;
+	max-width: 100%;
+}
+
+.caro{
+	width: 130%;
+	left: -15%;
+}
 
 	#showcaseparent{
 		height: auto;
