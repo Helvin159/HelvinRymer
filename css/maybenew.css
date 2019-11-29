@@ -428,6 +428,7 @@ form input{
 	background:linear-gradient(0deg, rgba(0,0,0,0.97), rgba(0,0,0,0.9)), url(img/bgimage);
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
 }
 
 .abouthero{
@@ -437,6 +438,7 @@ form input{
 	position: relative;
 	background:linear-gradient(0deg, rgba(0,0,0,0.97), rgba(0,0,0,0.9)), url(img/bgimage4);
 	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 }
 
