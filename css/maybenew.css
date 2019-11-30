@@ -25,6 +25,16 @@ html{
 	overflow-x: hidden;
 }
 
+.downarrow{
+	position: absolute;
+	top: 95%;
+	font-size: 35px;
+	color: #F2F5EA;
+	left: 47%;
+	animation: blinking 5s linear infinite;
+}
+
+
 .img-fluid{
 	max-width: 100%;
 	height: auto;
@@ -276,14 +286,6 @@ form input{
 	opacity: 0;
 }
 
-.downarrow{
-	position: absolute;
-	top: 95%;
-	font-size: 35px;
-	color: #F2F5EA;
-	left: 50%;
-	animation: blinking 5s linear infinite;
-}
 
 @keyframes blinking{
 	0%{
