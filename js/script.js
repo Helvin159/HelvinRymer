@@ -1,7 +1,6 @@
 $('.herocontent').css("opacity", "0");
 $('body').css("backgroundColor", "#000404");
 $('.heroitem').hide();
-$('.section').css("opacity", 0);
 $('.sectionOne').css("opacity", 1);
 $('.navbar').css("opacity",0);
 

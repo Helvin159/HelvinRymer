@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Permanent+Marker|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Shadows+Into+Light&display=swap');
+
+
 /*
+font-family: 'Rock Salt', cursive;
+font-family: 'Shadows Into Light', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Sedgwick Ave Display', cursive;
 font-family: 'Roboto', sans-serif;
@@ -102,6 +107,7 @@ footer mark{
 
 .backToTop i{
 	font-size: 60px;
+	margin: 2.5% auto;
 }
 
 .backToTop mark{
@@ -122,6 +128,7 @@ footer mark{
 
 .backToTop{
 	text-align: center;
+	margin: 2.5% auto;
 }
 
 .morepjs a:hover{
@@ -266,6 +273,7 @@ form input{
 	min-height: 100vh;
 	width: auto;
 	position: relative;
+	opacity: 0;
 }
 
 .downarrow{
@@ -526,6 +534,10 @@ display: none;
 	width: 130%;
 	left: -15%;
 }
+	
+	.section{
+		opacity: 1;
+	}
 
 	#showcaseparent{
 		height: auto;
