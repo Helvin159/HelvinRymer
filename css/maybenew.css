@@ -269,8 +269,7 @@ form input{
 }
 
 .section{
-	height: auto;
-	min-height: 100vh;
+	height: 100vh;
 	width: auto;
 	position: relative;
 	opacity: 0;
@@ -515,7 +514,7 @@ display: none;
 		top: 10%;
 	}
 
-.mobileimg img{
+	.mobileimg img{
 	width:18%;
 	left: -7%;
 	top: 41%;
@@ -523,20 +522,21 @@ display: none;
 	z-index: 2;
 }
 
-.ipadimg img{
+	.ipadimg img{
 	width:60%;
 	top: 35%;
 	left: 50%;
 	max-width: 100%;
 }
 
-.caro{
+	.caro{
 	width: 130%;
 	left: -15%;
 }
 	
 	.section{
 		opacity: 1;
+		height:60vh;
 	}
 
 	#showcaseparent{
@@ -587,6 +587,8 @@ display: none;
 
 	#herodetsmobile{
 		display: block;
+		position: absolute;
+		top:50px;
 	}
 
 	#herodets{
