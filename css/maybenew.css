@@ -37,7 +37,7 @@ li{
 
 h1, h2, h3, h4, h5, h6{
 	color: #F2F5EA;
-	font-family: 'Sedgwick Ave Display', cursive;
+	font-family: 'Rock Salt', cursive;
 }
 
 p{
@@ -362,6 +362,11 @@ form input{
 	opacity: 0;
 }
 
+.herocontent h5{
+	text-align: left;
+	padding: 2%;
+	transform: skewY(-5deg) skewX(15deg);
+}
 .herocontent h3{
 	text-align: left;
 	padding: 2%;
@@ -582,13 +587,17 @@ display: none;
 	}
 
 	.title h1{
-		font-size: 40px;
+display: none;
 	}
 
 	#herodetsmobile{
 		display: block;
 		position: absolute;
-		top:50px;
+		top:70px;
+	}
+
+	.backToTop{
+		display: none;
 	}
 
 	#herodets{
