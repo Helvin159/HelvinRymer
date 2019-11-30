@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt|Shadows+Into+Light&display=swap');
 
-
 /*
 font-family: 'Rock Salt', cursive;
 font-family: 'Shadows Into Light', cursive;
@@ -118,7 +117,9 @@ footer mark{
 
 .backToTop a:hover{
 	transition: 350ms ease-in;
+	text-decoration: none;
 	color: red;
+	transform: scale(1.02);
 }
 
 .backToTop a{
@@ -360,6 +361,13 @@ form input{
 	width: 35%;
 	text-align: center;
 	opacity: 0;
+	z-index: 1;
+}
+
+.herocontent h4{
+	text-align: left;
+	padding: 2%;
+	transform: skewY(-5deg) skewX(15deg);
 }
 
 .herocontent h5{
@@ -367,6 +375,7 @@ form input{
 	padding: 2%;
 	transform: skewY(-5deg) skewX(15deg);
 }
+
 .herocontent h3{
 	text-align: left;
 	padding: 2%;
@@ -427,7 +436,7 @@ form input{
 
 #madein{
 	position: absolute;
-	top: 88%;
+	top: 83%;
 	left: 80%;
 	transform: rotateZ(-25deg);
 }
@@ -538,7 +547,7 @@ display: none;
 	width: 130%;
 	left: -15%;
 }
-	
+
 	.section{
 		opacity: 1;
 		height:60vh;
