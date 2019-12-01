@@ -465,6 +465,7 @@ form input{
 
 #mobilenav{
 	display: none;
+	z-index: 10;
 }
 
 #herodetsmobile{
