@@ -151,7 +151,6 @@ footer mark{
 	color:#60656F;
 }
 
-
 form input{
 	width: 300px;
 	border-right: none;
@@ -175,9 +174,6 @@ form input{
 .modal-content{
 	width: 100%
 }
-
-
-
 
 .descript iframe{
 	width: 100%;
@@ -284,7 +280,6 @@ form input{
 	position: relative;
 	opacity: 0;
 }
-
 
 @keyframes blinking{
 	0%{
@@ -480,6 +475,9 @@ form input{
 	display: block;
 }
 
+
+
+
 @media screen and (max-width: 600px){
 
 	body{
@@ -564,7 +562,7 @@ form input{
 }
 
 	#madein{
-	left: 30%
+	left: 10%;
 }
 
 	#heroimg{
@@ -612,5 +610,18 @@ display: none;
 
 	#herodets{
 		display: none;
+	}
+}
+
+@media screen and (max-width: 375px){
+	#madein{
+		top: 80%;
+	}
+	
+}
+
+@media screen and (device-height: 812px){
+	#madein{
+		top:65%;
 	}
 }
