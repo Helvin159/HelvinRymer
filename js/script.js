@@ -79,7 +79,6 @@ $(document).ready(function() {
 		} else {
 			$('#section1').css("opacity", 0);
 		}
-
 	});
 
 //	$('#section1').mouseover(function(){
