@@ -344,6 +344,11 @@ form input{
 	cursor: pointer;
 }
 
+.heroitem li:hover{
+	text-decoration: none;
+	color: red;
+}
+
 .heroitem li{
 	display: inline-block;
 	font-size: 23px;
@@ -359,7 +364,7 @@ form input{
 
 .heroitem{
 	position: absolute;
-	top: 25%;
+	top: 15%;
 	right: .01%;
 	width: 35%;
 	text-align: center;
