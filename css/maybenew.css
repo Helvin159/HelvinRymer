@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6{
 
 p{
 	color: #F2F5EA;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 2;
 	padding: 2.5%;
 }
@@ -251,6 +251,7 @@ form input{
 	min-height: 100vh;
 	position: relative;
 }
+
 
 .section mark{
 	background-color: red;
@@ -458,6 +459,26 @@ form input{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+}
+
+#myskills{
+	padding: 15%;
+	min-height: 60vh;
+	position: relative;
+}
+
+.skills{
+	top:40%;
+	left: 10%;
+	position: absolute;
+}
+
+.aboutme img{
+	border-radius: 10px;
+}
+
+.aboutme p{
+	font-size: 19px;
 }
 
 .abouthero{
