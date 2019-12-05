@@ -252,7 +252,6 @@ form input{
 	position: relative;
 }
 
-
 .section mark{
 	background-color: red;
 	border-radius: 10px;
@@ -275,13 +274,6 @@ form input{
 	position: relative;
 }
 
-
-.section0101{
-	height: 100vh;
-	width: auto;
-	position: relative;
-	opacity: 0;
-}
 .section{
 	height: 100vh;
 	width: auto;
@@ -468,9 +460,7 @@ form input{
 }
 
 .skills{
-	top:40%;
-	left: 10%;
-	position: absolute;
+	margin-top: 10%;
 }
 
 .aboutme img{
@@ -511,16 +501,15 @@ form input{
 
 
 
-
-@media screen and (max-width: 600px){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
 	body{
 	margin: 0;
 	padding: 0;
 	overflow: scroll;
 	overflow-x: hidden;
-
-}
+	}
 
 	html{
 	margin: 0;
@@ -528,7 +517,7 @@ form input{
 	overflow: scroll;
 	overflow-x: hidden;
 
-}
+	}
 
 	#openbtn{
 		top: 1%;
@@ -551,6 +540,10 @@ form input{
 		height: 13%;
 		z-index:2;
 }
+
+	.descript h1{
+		font-size: 15px;
+	}
 
 	.descript{
 		display: none;
@@ -583,11 +576,13 @@ form input{
 
 	.section{
 		height:auto;
+		display: none;
 	}
 
 	#showcaseparent{
 		height: auto;
 		min-height: auto;
+		margin: 5% auto;
 	}
 
 	.heroitem{
@@ -644,17 +639,17 @@ display: none;
 	#herodets{
 		display: none;
 	}
+
 }
 
-@media screen and (max-width: 375px){
-	#madein{
-		top: 80%;
-	}
-	
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
 
-@media screen and (device-height: 812px){
-	#madein{
-		top:65%;
-	}
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

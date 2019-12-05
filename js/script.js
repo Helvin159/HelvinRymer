@@ -71,7 +71,7 @@ $(document).ready(function() {
 			$('#section1').css("transition", "1s ease-in");
 			$('#section1').css("transition", ".5s ease-in-out");
 			$('#section1').css("opacity", 1);
-			$('#section1').css("background", "linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.85)),url(css/img/themstill1.png)");
+			$('#section1').css("background", "linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.85)),url(css/Lifestyle/lifestyleHome.png)");
 			$('#section1').css("background-size", "cover");
 			$('#section1').css("background-attachment", "fixed");
 			$('#title1').css("animation", "slidein 2s 1");
@@ -87,7 +87,7 @@ $(document).ready(function() {
 		if (y > 3750) {
 			$('#section2').css("transition", ".5s ease-in-out");
 			$('#section2').css("opacity", 1);
-			$('#section2').css("background", "linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.85)),url(css/img/melii.png)");
+			$('#section2').css("background", "linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.85)),url(css/maniac_art/maniacartHome.png)");
 			$('#section2').css("background-size", "cover");
 			$('#section2').css("background-attachment", "fixed");
 			$('#title2').css("animation", "slidein 2s 1");
