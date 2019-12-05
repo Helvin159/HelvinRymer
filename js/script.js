@@ -166,7 +166,7 @@ $(document).ready(function() {
 	$('#section6').mouseover(function(){
 		$(this).css("transition", ".5s ease-in-out");
 		$(this).css("opacity", 1);
-		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.85)),url(css/img/temp10)");
+		$(this).css("background","linear-gradient(0deg, rgba(0,0,0,0.92),rgba(0,0,0,0.85)),url(css/Temp10/2.png)");
 		$(this).css("background-size", "cover");
 		$(this).css("background-attachment", "fixed");
 		$('#title6').css("animation", "slidein 2s 1");

@@ -90,29 +90,6 @@ footer mark{
 	color: #F2F5EA;
 }
 
-#openbtn{
-	position:fixed;
-	right:1%;
-	top:1%;
-}
-
-#closebtn{
-	display: none;
-	position:fixed;
-	right:1%;
-	top:1%;
-}
-
-#bgmusic{
-	width: 15%;
-	height: 100px;
-	display: none;
-	position:fixed;
-	right:1%;
-	top:9%;
-	border: 1px solid red;
-}
-
 .backToTop i{
 	font-size: 60px;
 	margin: 2.5% auto;
@@ -248,7 +225,6 @@ form input{
 
 #showcaseparent{
 	padding: 15%;
-	min-height: 100vh;
 	position: relative;
 }
 
@@ -673,9 +649,8 @@ display: none;
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 375px and up) */
 @media only screen and (min-width: 375px) {
-
 
 	#openbtn{
 		top: 1%;
@@ -699,20 +674,84 @@ display: none;
 		z-index:2;
 }
 
-
 	#herodetsmobile h5{
 		font-size: 20px;
 	}
+
+	.descript iframe{
+		min-height: 400px;
+	}
+
+	.descript h1{
+		font-size: 35px;
+	}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+	#openbtn{
+	position:fixed;
+	left: 75%;
+	top:1%;
+}
+
+	#closebtn{
+	display: none;
+	position:fixed;
+	left: 80%;
+	top:1%;
+}
+
+	#bgmusic{
+		width: 15%;
+		height: 100px;
+		display: none;
+		position:fixed;
+		left:780% ;
+		top:9%;
+		border: 1px solid red;
+}
+	
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+
+	#openbtn{
+	position:fixed;
+	left: 85%;
+	top:1%;
+}
+
+#closebtn{
+	display: none;
+	position:fixed;
+	left: 85%;
+	width: 12%;
+	top:1%;
+}
+
+#bgmusic{
+	width: 15%;
+	height: 100px;
+	display: none;
+	position:fixed;
+	left:85% ;
+	top:9%;
+	border: 1px solid red;
+}
+
+#showcaseparent{
+	padding: 15%;
+	min-height: 100vh;
+	position: relative;
+}
+
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
