@@ -145,9 +145,10 @@ $(document).ready(function() {
 		}
 	});
 
+//ABOUTME
 	$(document).scroll(function () {
 		var y = $(this).scrollTop();
-		if (y > 550) {
+		if (y > 200) {
 			$('#aboutme').css("transition", "1s ease-in");
 			$('#aboutme').css("transition", ".5s ease-in-out");
 			$('#aboutme').css("opacity", 1);
