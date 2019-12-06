@@ -331,7 +331,7 @@ form input{
 
 .heroitem{
 	position: absolute;
-	top: 15%;
+	top: 30%;
 	right: .01%;
 	width: 35%;
 	text-align: center;
@@ -409,13 +409,6 @@ form input{
 	position: relative;
 }
 
-#madein{
-	position: absolute;
-	top: 83%;
-	left: 80%;
-	transform: rotateZ(-25deg);
-}
-
 .hero{
 	height: 100vh;
 	width: 100vw;
@@ -471,6 +464,11 @@ form input{
 
 #herodets{
 	display: block;
+}
+
+	#madein{
+	position: absolute;
+	transform: rotateZ(-25deg);
 }
 
 
@@ -564,7 +562,8 @@ form input{
 }
 
 	#madein{
-	left: 10%;
+	left: 20%;
+		font-size: 15px;
 }
 
 	#heroimg{
@@ -641,7 +640,7 @@ display: none;
 		top: 1%;
 		font-size:17px;
 		left: 35%;
-		z-index:2;
+		z-index:12;
 }
 
 	#closebtn{
@@ -649,7 +648,8 @@ display: none;
 		top: 1%;
 		font-size:17px;
 		left: 40%;
-		z-index:2;
+		z-index:12;
+		display: none;
 }
 
 	#bgmusic{
@@ -658,7 +658,8 @@ display: none;
 		left: 25%;
 		width: 50%;
 		height: 13%;
-		z-index:2;
+		z-index:12;
+		display: none;
 }
 
 	#heroimg{
@@ -682,8 +683,9 @@ display: none;
 	}
 
 	#madein{
-		left: 60%;
-		top: 62%;
+		left: 20%;
+		top: 85%;
+		font-size: 18px;
 	}
 
 	#herorow1{
@@ -712,6 +714,18 @@ display: none;
 		font-size: 40px;
 	}
 
+	#mobilenav{
+		z-index: 11;
+	}
+
+}
+
+@media only screen and (min-width: 414px) {
+	#madein{
+		font-size: 18px;
+		left: 32%;
+		top: 85%;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -741,7 +755,7 @@ display: none;
 }
 
 	#madein{
-		left: 70%;
+		left: 63%;
 		top:85%;
 	}
 
@@ -799,6 +813,14 @@ display: none;
 	transform:rotateY(180deg) translateX(100px) translateY(-100px);
 }
 
+	#madein{
+	top: 83%;
+	left: 75%;
+}
+
+	.herocontent{
+		margin: 0px;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
