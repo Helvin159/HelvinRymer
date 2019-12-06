@@ -250,18 +250,10 @@ form input{
 	position: relative;
 }
 
-
 .aboutsection mark{
 	background-color: red;
 	border-radius: 10px;
 	color: #F2F5EA;
-}
-
-.aboutsection{
-	height: 100vh;
-	width: auto;
-	position: relative;
-	opacity: 0;
 }
 
 .section{
@@ -302,8 +294,6 @@ form input{
 	transform: skewX(50deg) rotateY(30deg) rotateZ(-2deg) translateY(-250px) translateX(310px) translateZ(200px);
 	box-shadow: -12px 12px 18px rgba(0,0,0,0.5);
 }
-
-
 
 .heroitem img{
 	width: 360px;
@@ -690,17 +680,36 @@ display: none;
 	.hero h4{
 		font-size: 20px;
 	}
-	
+
 	#madein{
-left: 60%;
+		left: 60%;
+		top: 62%;
 	}
-	
+
 	#herorow1{
-		margin-top:10%;
+		margin-top:15%;
 	}
-	
+
 	.hero{
 		height: 100vh;
+	}
+
+	#tsheading{
+	position: absolute;
+	top: 10%;
+	transform: skewX(25deg) skewY(5deg);
+}
+
+	.skills{
+		margin-top: 20%;
+	}
+
+	.abouthero h4{
+		font-size: 20px;
+	}
+
+	.aboutme h2{
+		font-size: 40px;
 	}
 
 }
@@ -731,7 +740,14 @@ left: 60%;
 		border: 1px solid red;
 }
 
+	#madein{
+		left: 70%;
+		top:85%;
+	}
 
+	.aboutme p{
+		font-size: 17px;
+	}
 
 }
 
@@ -744,7 +760,7 @@ left: 60%;
 	top:1%;
 }
 
-#closebtn{
+	#closebtn{
 	display: none;
 	position:fixed;
 	left: 85%;
@@ -752,7 +768,7 @@ left: 60%;
 	top:1%;
 }
 
-#bgmusic{
+	#bgmusic{
 	width: 15%;
 	height: 100px;
 	display: none;
@@ -762,10 +778,17 @@ left: 60%;
 	border: 1px solid red;
 }
 
-#showcaseparent{
+	#showcaseparent{
 	padding: 15%;
 	min-height: 100vh;
 	position: relative;
+}
+
+	.aboutsection{
+	height: 100vh;
+	width: auto;
+	position: relative;
+	opacity: 0;
 }
 
 	#heroimg{
