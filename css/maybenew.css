@@ -798,6 +798,9 @@ display: none;
 	position: relative;
 }
 
+	.skills{
+		margin-top: 8%;
+	}
 	.aboutsection{
 	height: 100vh;
 	width: auto;
