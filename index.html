@@ -1,1012 +1,1105 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app='mrRymer'>
 
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="https://kit.fontawesome.com/3f2d85e662.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/maybenew.css">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="icon" href="assets/img/favicon1.png" type="image/x-icon" />
-<title>Helvin Rymer</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="Keywords" content="helvin, rymer, helvin rymer, developer, web developer, full stack, developer, html, css, javascript, php, mysql, angular, bootstrap, NYC developer, dev">
+	<meta name="Description" content="Full Stack Web Developer">
+	<meta name="Author" content="Helvin Rymer">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/3f2d85e662.js" crossorigin="anonymous"></script>
+
+
+
+
+
+	<!--CSS-->
+	<link rel="stylesheet" href="css/maybenew.css">
+	<!--
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Permanent+Marker|Rock+Salt&display=swap');
+
+		/*
+font-family: 'Rock Salt', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: scroll;
+			overflow-x: hidden;
+			overflow-y: hidden;
+		}
+
+		html {
+			margin: 0;
+			padding: 0;
+			overflow: scroll;
+			overflow-x: hidden;
+		}
+
+		.downarrow {
+			position: absolute;
+			top: 95%;
+			font-size: 35px;
+			color: #f2f5ea;
+			left: 47%;
+			animation: blinking 5s linear infinite;
+		}
+
+		.img-fluid {
+			max-width: 100%;
+			height: auto;
+		}
+
+		li {
+			font-family: 'Permanent Marker', cursive;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #f2f5ea;
+			font-family: 'Rock Salt', cursive;
+		}
+
+		p {
+			color: #f2f5ea;
+			font-family: 'Open Sans', sans-serif;
+			line-height: 2;
+			padding: 2.5%;
+			font-size: 20px;
+		}
+
+		mark {
+			background-color: red !important;
+			border-radius: 10px;
+			color: #f2f5ea;
+		}
+
+		button,
+		.btn {
+			font-family: 'Permanent Marker', cursive;
+		}
+
+		footer i {
+			font-size: 25px;
+		}
+
+		footer a:hover {
+			color: red;
+			text-decoration: none;
+		}
+
+		footer a {
+			text-decoration: none;
+			color: #60656f;
+		}
+
+		footer li {
+			display: inline-block;
+			padding: 1%;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+		footer ul {
+			list-style-type: none;
+		}
+
+		.backToTop i {
+			font-size: 60px;
+			margin: auto;
+		}
+
+		.backToTop a:hover {
+			transition: 350ms ease-in;
+			text-decoration: none;
+			color: red;
+			transform: scale(1.02);
+		}
+
+		.backToTop a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.backToTop {
+			text-align: center;
+			margin: auto;
+		}
+
+		.morepjs a:hover {
+			color: red;
+			text-decoration: none;
+		}
+
+		.morepjs a {
+			text-decoration: none;
+			color: #60656f;
+		}
+
+		form input {
+			width: 300px;
+			border-right: none;
+			border-left: none;
+			border-top: none;
+		}
+
+		.modal-body textarea {
+			width: 300px;
+		}
+
+		.modal-body select {
+			width: 300px;
+		}
+
+		.modal-body {
+			font-family: 'Permanent Marker', cursive;
+			width: 100%;
+		}
+
+		.modal-content {
+			width: 100%;
+		}
+
+		.descript iframe {
+			width: 100%;
+			height: 80%;
+			border: none;
+			border-radius: 5px;
+			box-shadow: -4px 4px 15px rgba(20, 20, 20, 0.5);
+		}
+
+		.descript p {
+			padding: 3%;
+		}
+
+		.descript {
+			min-height: auto;
+		}
+
+		.mobileimg img {
+			width: 17%;
+			max-width: 100%;
+			position: absolute;
+			top: 35%;
+			z-index: 2;
+		}
+
+		.ipadimg img {
+			width: 40%;
+			max-width: 100%;
+			position: absolute;
+			top: 45%;
+			right: .1%;
+		}
+
+		.caro {
+			position: absolute;
+			bottom: 10%;
+		}
+
+		#tsheading {
+			position: absolute;
+			transform: skewX(25deg) skewY(5deg);
+
+		}
+
+		.section6,
+		.section7 {
+			display: none;
+		}
+
+		.showcase {
+			position: relative;
+			margin: 5% auto 5% auto;
+		}
+
+		#showcaseparent {
+			position: relative;
+		}
+
+		.titlenum {
+			position: sticky;
+			top: 0;
+		}
+
+		.title {
+			margin-top: 10%;
+		}
+
+		.sectionOne {
+			height: auto;
+			min-height: 100vh;
+			width: auto;
+			position: relative;
+		}
+
+		.section {
+			height: 100vh;
+			width: auto;
+			position: relative;
+			opacity: 0;
+		}
+
+		@keyframes blinking {
+			0% {
+				opacity: 0;
+			}
+
+			50% {
+				opacity: 1;
+			}
+
+			100% {
+				transform: rotateY(360deg);
+				opacity: 0;
+			}
+		}
+
+		.carousel-item img {
+			border-radius: 15px;
+		}
+
+		.carousel {
+			border-radius: 15px;
+			padding: 5%;
+		}
+
+		#heroimg2 {
+			width: 90%;
+			height: auto;
+			margin: 1% auto;
+			border-radius: 10px;
+			transform: skewX(50deg) rotateY(30deg) rotateZ(-2deg) translateY(-250px) translateX(310px) translateZ(200px);
+			box-shadow: -12px 12px 18px rgba(0, 0, 0, 0.5);
+		}
+
+		.heroitem img {
+			width: 360px;
+		}
+
+		.heroitem a:hover {
+			text-decoration: none;
+			color: red;
+		}
+
+		.heroitem a {
+			font-size: 25px;
+			color: #f2f5ea;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.heroitem li:hover {
+			text-decoration: none;
+			color: red;
+		}
+
+		.heroitem li {
+			display: inline-block;
+			font-size: 23px;
+			padding: 3%;
+			color: #f2f5ea;
+			margin: auto 1%;
+			cursor: pointer;
+		}
+
+		.heroitem ul {
+			list-style-type: none;
+		}
+
+		.heroitem {
+			position: absolute;
+			top: 30%;
+			right: .01%;
+			width: 35%;
+			text-align: center;
+			opacity: 0;
+			z-index: 1;
+		}
+
+		.herocontent h4 {
+			text-align: left;
+			padding: 2%;
+			transform: skewY(-5deg) skewX(15deg);
+		}
+
+		.herocontent h5 {
+			text-align: left;
+			padding: 2%;
+			transform: skewY(-5deg) skewX(15deg);
+		}
+
+		.herocontent h3 {
+			text-align: left;
+			padding: 2%;
+			transform: skewY(-5deg) skewX(15deg);
+		}
+
+		@keyframes slideout2 {
+			0% {
+				transform: translateX(-600px);
+			}
+
+			50% {}
+
+			100% {}
+		}
+
+		@keyframes slideout {
+			0% {
+				transform: translateX(-800px);
+			}
+
+			50% {}
+
+			100% {}
+		}
+
+		@keyframes slidein2 {
+			0% {
+				transform: translateX(600px);
+			}
+
+			50% {}
+
+			100% {}
+		}
+
+		@keyframes slidein {
+			0% {
+				transform: translateX(-400px);
+			}
+
+			50% {}
+
+			100% {}
+		}
+
+		.herocontent mark {
+			background-color: red;
+			color: #f2f5ea;
+			border-radius: 10px;
+		}
+
+		.herocontent {
+			margin: 10% auto;
+			padding: 5%;
+			position: relative;
+		}
+
+		#myskills {
+			padding: 15%;
+			min-height: 60vh;
+			position: relative;
+		}
+
+		.skills {
+			margin-top: 10%;
+		}
+
+		.aboutme img {
+			border-radius: 10px;
+		}
+
+		.aboutme p {
+			font-size: 19px;
+		}
+
+		.abouthero {
+			height: 100vh;
+			width: 100vw;
+			padding: 2.5%;
+			position: relative;
+			background: linear-gradient(0deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.85)), url(bgimages/bgimage4.jpg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		.navbar {
+			z-index: 10;
+		}
+
+		#mobilenav {
+			display: none;
+			z-index: 10;
+		}
+
+		#herodetsmobile {
+			display: none;
+		}
+
+		#herodets {
+			display: block;
+		}
+
+		#madein {
+			position: absolute;
+			transform: rotateZ(-25deg);
+		}
+
+		.hero {
+			background: linear-gradient(0deg, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(bgimages/bgimage.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+
+			height: 100vh;
+			width: 100vw;
+			padding: 2.5%;
+			position: relative;
+		}
+
+
+		/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px) {
+			body {
+				margin: 0;
+				padding: 0;
+				overflow: scroll;
+				overflow-x: hidden;
+			}
+
+			html {
+				margin: 0;
+				padding: 0;
+				overflow: scroll;
+				overflow-x: hidden;
+			}
+
+			#openbtn {
+				position: fixed;
+				top: 1%;
+				font-size: 12px;
+				left: 35%;
+				z-index: 2;
+			}
+
+			#closebtn {
+				position: fixed;
+				top: 1%;
+				font-size: 12px;
+				left: 40%;
+				z-index: 2;
+				display: none;
+			}
+
+			#bgmusic {
+				top: 9%;
+				left: 25%;
+				width: 50%;
+				height: 13%;
+				z-index: 2;
+				position: fixed;
+				display: none;
+			}
+
+			.descript h1 {
+				font-size: 15px;
+			}
+
+			#tsheading {
+				left: -5%;
+				top: -8%;
+				font-size: 20px;
+			}
+
+			.mobileimg img {
+				width: 18%;
+				left: -7%;
+				top: 41%;
+				max-width: 100%;
+				z-index: 2;
+			}
+
+			.ipadimg img {
+				width: 60%;
+				top: 35%;
+				left: 50%;
+				max-width: 100%;
+			}
+
+			.caro {
+				width: 130%;
+				left: -15%;
+			}
+
+			.descript h1 {
+				display: none;
+			}
+
+			.section {
+				height: auto;
+				opacity: 1;
+			}
+
+			#showcaseparent {
+				height: auto;
+				min-height: auto;
+				margin: auto;
+			}
+
+
+			.livesite {
+				display: none
+			}
+
+			#showcaseparent iframe {
+				height: 500px;
+				width: 100%;
+				border: none;
+				border-radius: 10px;
+
+			}
+
+			.heroitem {
+				display: none;
+			}
+
+			#madein {
+				left: 20%;
+				bottom: 10%;
+				font-size: 15px;
+			}
+
+			#heroimg {
+				display: none;
+			}
+
+			#primarynav {
+				display: none;
+			}
+
+			#mobilenav mark {
+				background-color: red;
+				border-radius: 5px;
+				font-family: 'Sedgwick Ave Display', cursive;
+				color: #f2f5ea;
+			}
+
+			.neavbar-nav {
+				text-align: center;
+			}
+
+			.skills {
+				margin-top: 40%;
+			}
+
+			#mobilenav {
+				display: block;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 1;
+				font-family: 'Permanent Marker', cursive;
+				font-size: 20px;
+			}
+
+			#title4 h1 {
+				font-size: 20px;
+			}
+
+			.title h1 {
+				font-size: 22px;
+				width: 100vw;
+			}
+
+			.aboutsection {
+				display: none;
+			}
+
+			#herodetsmobile {
+				display: block;
+				position: absolute;
+				top: 60px;
+			}
+
+			#herodetsmobile h5 {
+				font-size: 15px;
+			}
+
+			#herodets h4 {
+				font-size: 10px;
+			}
+
+			.backToTop i {
+				display: none;
+			}
+
+			.backToTop h3 {
+				font-size: 15px;
+			}
+
+			#herodets {
+				display: none;
+			}
+		}
+
+		/* Small devices (portrait tablets and large phones, 375px and up) */
+		@media only screen and (min-width: 374px) {
+			#openbtn {
+				position: fixed;
+				top: 1%;
+				font-size: 17px;
+				left: 35%;
+				z-index: 12;
+			}
+
+			#closebtn {
+				position: fixed;
+				top: 1%;
+				font-size: 17px;
+				left: 40%;
+				z-index: 12;
+				display: none;
+			}
+
+			#bgmusic {
+				position: fixed;
+				top: 9%;
+				left: 25%;
+				width: 50%;
+				height: 13%;
+				z-index: 12;
+				display: none;
+			}
+
+			#heroimg {
+				transform: translateX(-70px) rotateY(180deg);
+			}
+
+			#herodetsmobile {
+				top: 50%;
+			}
+
+			#herodetsmobile h5 {
+				font-size: 20px;
+			}
+
+			.descript iframe {
+				min-height: 400px;
+			}
+
+			.descript h1 {
+				display: none;
+			}
+
+			.hero h4 {
+				font-size: 20px;
+			}
+
+			#madein {
+				left: 20%;
+				top: 80%;
+				font-size: 18px;
+			}
+
+			#herorow1 {
+				margin-top: 15%;
+			}
+
+
+
+
+			#tsheading {
+				position: absolute;
+				top: .5%;
+				left: -4.5%;
+				transform: skewX(25deg) skewY(5deg);
+				font-size: 20px;
+			}
+
+
+			.livesite {
+				display: none
+			}
+
+			#showcaseparent iframe {
+				height: 500px;
+				width: 100%;
+				border: none;
+				border-radius: 10px;
+
+			}
+
+			.skills {
+				margin-top: 20%;
+			}
+
+			.abouthero h4 {
+				font-size: 20px;
+			}
+
+			.aboutme h2 {
+				font-size: 40px;
+			}
+
+			#mobilenav {
+				z-index: 11;
+			}
+
+			.backToTop i {
+				display: none;
+			}
+
+			.backToTop h3 {
+				font-size: 15px;
+			}
+
+		}
+
+		@media only screen and (min-width: 413px) {
+			#madein {
+				font-size: 18px;
+				left: 32%;
+				top: 85%;
+			}
+
+			.descript h1 {
+				display: none;
+			}
+
+			.livesite {
+				display: none
+			}
+
+			#showcaseparent iframe {
+				height: 600px;
+				width: 100%;
+				border: none;
+				border-radius: 10px;
+
+			}
+
+			.backToTop i {
+				display: none;
+			}
+
+			.backToTop h3 {
+				font-size: 15px;
+			}
+
+
+		}
+
+		/* Medium devices (landscape tablets, 768px and up) */
+		@media only screen and (min-width: 767px) {
+			#openbtn {
+				position: fixed;
+				left: 75%;
+				top: 1%;
+			}
+
+			#closebtn {
+				display: none;
+				position: fixed;
+				left: 80%;
+				top: 1%;
+			}
+
+			#showcaseparent iframe {
+				height: 600px;
+				width: 100%;
+				border: none;
+				border-radius: 10px;
+
+			}
+
+			#bgmusic {
+				width: 15%;
+				height: 100px;
+				display: none;
+				position: fixed;
+				left: 780%;
+				top: 9%;
+				border: 1px solid red;
+			}
+
+			#tsheading {
+				position: absolute;
+				top: 1%;
+				left: 1%;
+				font-size: 25px;
+				transform: skewX(25deg) skewY(5deg);
+			}
+
+
+			#madein {
+				left: 63%;
+				top: 85%;
+			}
+
+			.aboutme p {
+				font-size: 17px;
+			}
+
+			.livesite {
+				display: block;
+			}
+
+		}
+
+		/* Large devices (laptops/desktops, 992px and up) */
+		@media only screen and (min-width: 992px) {
+			#openbtn {
+				position: fixed;
+				left: 85%;
+				top: 1%;
+			}
+
+			#closebtn {
+				display: none;
+				position: fixed;
+				left: 85%;
+				width: 12%;
+				top: 1%;
+			}
+
+			#bgmusic {
+				width: 15%;
+				height: 100px;
+				display: none;
+				position: fixed;
+				left: 85%;
+				top: 9%;
+				border: 1px solid red;
+			}
+
+			#showcaseparent iframe {
+				height: 600px;
+				width: 100%;
+				border: none;
+				border-radius: 10px;
+			}
+
+			#showcaseparent {
+				min-height: 100vh;
+				position: relative;
+			}
+
+			.skills {
+				margin-top: 8%;
+			}
+
+			.aboutsection {
+				height: 100vh;
+				width: auto;
+				position: relative;
+				opacity: 0;
+			}
+
+			#heroimg {
+				width: 100%;
+				height: 100%;
+				margin: 1% auto;
+				border-radius: 10px;
+				transform: rotateY(180deg) translateX(100px) translateY(-100px);
+			}
+
+			#madein {
+				top: 83%;
+				left: 75%;
+			}
+
+			.herocontent {
+				margin: 0px;
+			}
+
+			#tsheading {
+				top: 3%;
+				font-size: 30px;
+				transform: skewX(25deg) skewY(5deg);
+
+			}
+
+			#backtotop i {
+				font-size: 35px;
+				display: block;
+			}
+
+			#backtotop h3 {
+				font-size: 18px;
+			}
+
+			#backtotop {
+				position: fixed;
+				bottom: 2.5%;
+				right: 1%;
+				display: none;
+				opacity: 0;
+				font-size: 20px;
+			}
+
+			.backToTop i {
+				display: block;
+			}
+
+			.backToTop h3 {
+				font-size: 25px;
+			}
+
+			.livesite {
+				display: block;
+			}
+
+
+		}
+
+		/* Extra large devices (large laptops and desktops, 1200px and up) */
+		@media only screen and (min-width: 1200px) {
+			#openbtn {
+				position: fixed;
+				left: 85%;
+				top: 1%;
+			}
+
+			#closebtn {
+				display: none;
+				position: fixed;
+				left: 85%;
+				width: 12%;
+				top: 1%;
+			}
+
+			#bgmusic {
+				width: 15%;
+				height: 100px;
+				display: none;
+				position: fixed;
+				left: 85%;
+				top: 9%;
+				border: 1px solid red;
+			}
+
+			#showcaseparent iframe {
+				height: 600px;
+				width: 100%;
+				border: none;
+				border-radius: 10px;
+
+			}
+
+			#showcaseparent {
+				min-height: 100vh;
+				position: relative;
+			}
+
+			.skills {
+				margin-top: 8%;
+			}
+
+			.aboutsection {
+				height: 100vh;
+				width: auto;
+				position: relative;
+				opacity: 0;
+			}
+
+			#heroimg {
+				width: 100%;
+				height: 100%;
+				margin: 1% auto;
+				border-radius: 10px;
+				transform: rotateY(180deg) translateX(100px) translateY(-100px);
+			}
+
+			#madein {
+				top: 83%;
+				left: 75%;
+			}
+
+			.herocontent {
+				margin: 0px;
+			}
+
+			#tsheading {
+				top: 2%;
+				transform: skewX(25deg) skewY(5deg);
+			}
+
+
+
+
+			#backtotop i {
+				font-size: 35px;
+			}
+
+			#backtotop h3 {
+				font-size: 18px;
+			}
+
+			#backtotop {
+				position: fixed;
+				bottom: 2.5%;
+				right: 1%;
+				display: none;
+				opacity: 0;
+				font-size: 20px;
+			}
+
+		}
+	</style>
+-->
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!--Angular-->
+	<script src="js/lib/angular.min.js" type="text/javascript"></script>
+	<script src="js/lib/angular-route.min.js" type="text/javascript"></script>
+	<script src="js/app/mrrymer.js" type="text/javascript"></script>
+
+
+	<!--Favicon-->
+	<link rel="icon" href="assets/img/favicon1.png" type="image/x-icon">
+
+	<title>Mr. Rymer!</title>
 </head>
 
 <body>
-<!--Navigation-->
-<nav class="navbar navbar-dark position-fixed" style="background-color: rgba(0,0,0,0);" id="primarynav">
-<h5 class="p-3"><mark style="background-color: red;border-radius: 10px; color: #F2F5EA;">Mr. Rymer</mark></h5>
-<form class="form-inline">
-	<a href="index.html"><button class="btn btn-outline-danger mx-1 active" type="button" id="homebtn">Home</button></a>
-	<a href="about.html"><button class="btn btn-sm btn-outline-secondary mx-1" type="button" id="aboutbtn">About</button></a>
-	<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
-</form>
-</nav>
 
-<!--Mobile Nav-->
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0,0,0,0.95);" id="mobilenav">
-<a class="navbar-brand" href="#"><mark>Mr.Rymer</mark></a>
-<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse mt-5 float-middle" id="navbarNavAltMarkup">
-	<div class="navbar-nav text-center">
-		<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-		<a class="nav-item nav-link" href="about.html">About</a>
-		<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
+	<main ng-view></main>
 
-	</div>
-</div>
-</nav>
-
-<!--Hero-->
-<div class="container-fluid hero" id="hero">
-<div class="container herocontent">
-	<div class="row" id="herorow1">
-		<div class="col-sm my-5">
-			<div class="container" id="herodets">
-				<h4 id="firsth3">
-					<span><mark>hi, I'm Helvin Rymer</mark></span>
-				</h4>
-				<br>
-				<h4 id="secondh3">
-					<span><mark>Web Developer</mark></span>
-				</h4>
-				<br>
-				<h4 id="thirdh3">
-					<span><mark>HTML5 &amp; CSS3</mark></span>
-				</h4>
-				<br>
-				<h4 id="fourthh3">
-					<span><mark>JavaScript &amp; JQuery</mark></span>
-				</h4>
-				<br>
-			</div>
-
-<!--Mobile Only-->
-			<div class="container" id="herodetsmobile">
-				<h5 id="firsth3">
-					<span><mark>hi, I'm Helvin Rymer</mark></span>
-				</h5>
-				<br>
-				<h5 id="secondh3">
-					<span><mark>Web Developer</mark></span>
-				</h5>
-				<br>
-				<h5 id="thirdh3">
-					<span><mark>HTML5 &amp; CSS3</mark></span>
-				</h5>
-				<br>
-				<h5 id="fourthh3">
-					<span><mark>JavaScript &amp; JQuery</mark></span>
-				</h5>
-				<br>
-			</div>
-		</div>
-
-		<div class="col-sm">
-			<img alt="Responsive image" class="img-fluid heroimg" id="heroimg" src="css/Octocats/octocat11-1.png">
-		</div>
+	<!--Back to Top-->
+	<div class="backToTop" id="backtotop">
+		<a href="#top">
+			<i class="far fa-arrow-alt-circle-up">
+			</i>
+			<h3 class="p-3"><mark>Back to Top</mark></h3>
+		</a>
 	</div>
 
-	<div class="heroitem">
-		<h3><mark>Featured</mark></h3>
-		<ul>
-			<a href="#section1">
-				<li>Them Still</li>
-			</a>
-			<a href="#section2">
-				<li>Maniac Ink</li>
-			</a>
-			<a href="#section3">
-				<li>Template 2</li>
-			</a>
-			<a href="#section4">
-				<li>UFR</li>
-			</a>
-			<a href="#section5">
-				<li>Template 7</li>
-			</a>
-			<a href="#section6" id="viewsec6">
-				<li>Template 10</li>
-			</a>
-			<a href="#section7" id="viewsec7">
-				<li>Template 11</li>
-			</a>
-			<li>
-				<a href="https://github.com/Helvin159" target="_blank">
-					<i class="fab fa-github p-2"></i>
-				</a>
-				<a href="https://www.instagram.com/mrrymernyc/" target="_blank">
-					<i class="fab fa-instagram p-2"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/helvinrymer/" target="_blank">
-					<i class="fab fa-linkedin p-2"></i>
-				</a>
-				<a href="https://www.facebook.com/Helvin159" target="_blank">
-					<i class="fab fa-facebook p-2"></i>
-				</a>
-				<a href="assets/pdf/Resume.pdf" target="_blank">
-					<i class="fas fa-file-pdf p-2"></i>
-				</a>
-			</li>
+	<!--Modal-->
+	<div ng-include="'includes/modal.html'"></div>
 
-		</ul>
-	</div>
-</div>
-
-<h5 id="madein">
-	<mark style="background-color: red;border-radius: 10px;">
-		Made In The Bronx, NY
-	</mark>
-</h5>
-
-<i class="fas fa-chevron-down downarrow"></i>
-</div>
-
-<!--Section 1-->
-	<div class="container-fluid section1">
-
-	<div class="container-fluid p-5 section" id="section1">
-<div class="container">
-	<div class="row titlenum" id="titlenum1">
-		<h1 class="display-1 text-left">01</h1>
-	</div>
-	<div class="row title" id="title1">
-		<h1 class="display-4 m-auto p-5"><span><mark>Lifestyle Page</mark></span></h1>
-	</div>
-</div>
-</div>
-
-	<div class="container-fluid p-5 descript">
-<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>Working on this project</mark></h1>
-</div>
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>About</mark></h2>
-		<p>
-			This has been an awesome project to work on. The project, originally based on a group of artists in the hip hop community. The website is designed to show off lifestyle and creativity. Giving them an overall hip hop look was the goal, the site is in development.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Live Site
-		</h2>
-		<iframe src="https://helvin159.github.io/Lifestyle/"></iframe>
-	</div>
-</div>
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Inspiration</mark></h2>
-		<p>
-			The inspiration for this website came from a different web page, not related to hip hop at ALL! We saw the site and like the concept, but we needed to make it our own. I immediately started to work on multiple ideas I had in my head, and pushed this particular layout.
-		</p>
-	</div>
-</div>
-</div>
-
-
-	<div class="container-fluid p-5" id="showcaseparent">
-
+	<!--Music Player-->
 	<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark style="background-color:red">Lifestyle</mark>
-	</h1>
-</div>
-
-	<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/Lifestyle/lifestyleIphone5.png" class="img-fluid"></div>
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/Lifestyle/lifestyleHome.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Lifestyle/lifestyleHome2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Lifestyle/lifestyleIgPlugin.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Lifestyle/lifestyleTeam.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Lifestyle/lifestyleBanner.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Lifestyle/lifestyleIpadPortrait.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Lifestyle/lifestyleIphoneX.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
-	<div class=" ipadimg">
-		<img src="css/Lifestyle/lifestyleIpadLandscape.png" class="img-fluid"></div>
-</div>
-</div>
-
-	<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-	
-	<h3 class="p-3"><mark>Back to Top</mark></h3></a>
-</div>
-</div>
-
-</div>
-
-<!--Section 2-->
-<div class="container-fluid section2">
-	<div class="container-fluid p-5 section" id="section2">
-<div class="container">
-	<div class="row titlenum" id="titlenum2">
-		<h1 class="display-1 text-left">02</h1>
-	</div>
-	<div class="row title" id="title2">
-		<h1 class="p-5 m-auto display-4"><span><mark>Maniac Ink</mark></span></h1>
-	</div>
-</div>
-</div>
-
-	<div class="container-fluid p-5 descript">
-<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>Working on this project</mark></h1>
-</div>
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>About</mark></h2>
-		<p>
-			Maniac Ink is a tattoo artist based in Boston, Massachussetts. The artist is a family member of mine whom just has amazing talent. Currently, this site is under development and testing the site as it is now. I'm taking the original concept and turning it into a beautiful site capable of generating new customers.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Live Site
-		</h2>
-		<iframe src="https://helvin159.github.io/ManiacInk/"></iframe>
-	</div>
-</div>
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Inspiration</mark></h2>
-		<p>
-			The inspiration here purely came from the Instagram account of the artist @artmaniac03 and the content provided there.
-		</p>
-	</div>
-</div>
-</div>
-
-	<div class="container-fluid p-5" id="showcaseparent">
-<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark style="background-color:red">Maniac Ink</mark>
-	</h1>
-</div>
-<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/maniac_art/maniacartIphone5.png" class="img-fluid"></div>
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/maniac_art/maniacartHome.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/maniac_art/maniacartPortraits.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/maniac_art/maniacartIpadPort.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/maniac_art/maniacartPortraits1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/maniac_art/maniacartReviews.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/maniac_art/maniacartIphoneX.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/maniac_art/maniacartCoverups.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
-	<div class=" ipadimg">
-		<img src="css/maniac_art/maniacartIpadLands.png" class="img-fluid"></div>
-</div>
-</div>
-
-	<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-	
-	<h3 class="p-3"><mark>Back to Top</mark></h3>
-	</a>
-</div>
-</div>
-
-
-</div>
-
-<!--Section 3-->
-<div class="container-fluid section3">
-
-	<div class="container-fluid p-5 section" id="section3">
-<div class="container">
-	<div class="row titlenum" id="titlenum3">
-		<h1 class="display-1 text-left">03</h1>
-	</div>
-	<div class="row title" id="title3">
-		<h1 class="p-5 m-auto display-5"><span><mark>Template 2</mark></span></h1>
-	</div>
-</div>
-</div>
-
-	<div class="container-fluid p-5 descript">
-<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>UI Design</mark></h1>
-</div>
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>About</mark></h2>
-		<p>
-			Before becoming a web developer, I worked in NYC as a licensed real estate salesperson. With  8 years of experience i can say a web page for a nice listing is a very helpful marketing tool. Ideally, a page like this would be great for a luxury space in a vibrant neighborhood.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Wireframes
-		</h2>
-		<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="css/img/temp2wireframe.png" class="d-block w-100 img-fluid" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="css/img/temp2wireframe2.png" class="d-block w-100 img-fluid" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="css/img/temp2wireframe3" class="d-block w-100 img-fluid" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="css/img/temp2wireframe4" class="d-block w-100 img-fluid" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="css/img/temp2wireframe5" class="d-block w-100 img-fluid" alt="...">
-				</div>
-		</div>
-
-	</div>
-</div>
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Inspiration</mark></h2>
-		<p>
-			My thought process while working on this page involved the particular property shown on the page. I wanted to ensure the pages theme and style represented the listing provided.
-		</p>
-	</div>
-</div>
-</div>
-
-
-
-</div>
-
-	<div class="container-fluid p-5" id="showcaseparent">
-<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark style="background-color:red">Template 2</mark>
-	</h1>
-</div>
-
-<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/img/temp2phone.png" class="img-fluid"></div>
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/img/temp2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp2-1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp2-2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp2-3.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp2-4.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp2-1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
-	<div class=" ipadimg">
-		<img src="css/img/temp2ipad.png" class="img-fluid"></div>
-</div>
-</div>
-
-	<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-	
-	<h3 class="p-3"><mark>Back to Top</mark></h3>
-	</a>
-</div>
-</div>
-
-</div>
-
-<!--Section 4-->
-<div class="container-fluid section4">
-
-<div class="container-fluid p-5 section" id="section4">
-<div class="container">
-	<div class="row titlenum" id="titlenum4">
-		<h1 class="display-1 text-left">04</h1>
-	</div>
-	<div class="row title" id="title4">
-		<h1 class="p-5 m-auto display-5"><span><mark>UFR</mark></span></h1>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5 descript">
-<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>Heading 1</mark></h1>
-</div>
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>About</mark></h2>
-		<p>
-			Let me start by saying, I love Formula 1, and totally enjoy sim racing. UFR is a F1 simulator league on XBOX ONE, which I took part of as a "driver". The league has several driver tiers and championships for each tier. My thought behind the site was to provide a place to keep track of championship standings, highlights and live streaming via Twitch. The leagues rules and sign up form has also been made available for for potential new drivers.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Heading 2
-		</h2>
-
-	</div>
-</div>
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Inspiration</mark></h2>
-		<p>
-			After spending some time on the Formula 1 Website, an idea sparked into my head to make this site. A nice and simple homepage with a background that showed off a competitive snippet of racing in this particular league. It's a fixed image which keeps the image in place and spans the size of the users screen. 
-		</p>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5" id="showcaseparent">
-<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark style="background-color:red">UFR</mark>
-	</h1>
-</div>
-<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/img/ufrphone.png" class="img-fluid"></div>
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/img/UFRPAGE.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/ufrpage2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/ufripad1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/ufripadpg2" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/ufriphonexlgcanvas" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/ufriphone5lgcanvas1" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
-	<div class=" ipadimg">
-		<img src="css/img/ufripad.png" class="img-fluid"></div>
-</div>
-</div>
-
-<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-		<h3 class="p-3"><mark>Back to Top</mark></h3>
-	</a>
-</div>
-</div>
-</div>
-
-<!--Section 5-->
-<div class="container-fluid section5">
-
-<div class="container-fluid p-5 section" id="section5">
-<div class="container">
-	<div class="row titlenum" id="titlenum5">
-		<h1 class="display-1 text-left">05</h1>
-	</div>
-	<div class="row title" id="title5">
-		<h1 class="p-5 m-auto display-5"><span><mark>Perfect Tax</mark></span></h1>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5 descript">
-
-	<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>Working on this project</mark></h1>
-</div>
-
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>About</mark></h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus. dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Live Site
-		</h2>
-		<iframe src="https://helvin159.github.io/Perfect-Tax/index.html"></iframe>
-	</div>
-</div>
-
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Inspiration</mark></h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus. Mauris pellentesque pulvinar pellentesque habitant. Nibh ipsum consequat nisl vel. Justo donec enim diam vulputate. Nec sagittis aliquam malesuada bibendum arcu. Ultrices eros in cursus turpis. Ac placerat vestibulum lectus mauris ultrices eros in.
-		</p>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5" id="showcaseparent">
-<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark style="background-color:red">Perfect Tax</mark>
-	</h1>
-</div>
-<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/img/ptaxphone.png" class="img-fluid"></div>
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/img/ptax.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp1-1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp1-2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp1ipadport" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp1ipadland" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp1iphonelands" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
-	<div class=" ipadimg">
-		<img src="css/img/temp1ipad.png" class="img-fluid"></div>
-</div>
-</div>
-
-<div class="container-fluid">
-<button class="btn btn-lg btn-outline-danger" id="viewsection6">View more</button>
-</div>
-
-<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-		<h3 class="p-3"><mark>Back to Top</mark></h3>
-	</a>
-</div>
-</div>
-
-</div>
-
-<!--Section 6-->
-<div class="container-fluid section6">
-
-<div class="container-fluid p-5 section " id="section6">
-<div class="container">
-	<div class="row titlenum" id="titlenum6">
-		<h1 class="display-1 text-left">06</h1>
-	</div>
-	<div class="row title" id="title6">
-		<h1 class="p-5 m-auto display-5"><span><mark>Template 10</mark></span></h1>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5 descript">
-<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>Heading 1</mark></h1>
-</div>
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>Heading 2</mark></h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus. dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Heading 2
-		</h2>
-
-	</div>
-</div>
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Heading 1</mark></h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus. Mauris pellentesque pulvinar pellentesque habitant. Nibh ipsum consequat nisl vel. Justo donec enim diam vulputate. Nec sagittis aliquam malesuada bibendum arcu. Ultrices eros in cursus turpis. Ac placerat vestibulum lectus mauris ultrices eros in.
-		</p>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5" id="showcaseparent">
-<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark>Template 10</mark>
-	</h1>
-</div>
-<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/img/temp10mobile.png" class="img-fluid"></div>
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/Temp10/2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Temp10/3.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Temp10/4.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Temp10/5.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/Temp10/6.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
-	<div class=" ipadimg">
-		<img src="css/Temp10/temp10IpadLands.png" class="img-fluid"></div>
-</div>
-</div>
-
-<div class="container-fluid">
-<button class="btn btn-lg btn-outline-danger" id="viewsection7">View more</button>
-</div>
-
-<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-		<h3 class="p-3"><mark>Back to Top</mark></h3>
-	</a>
-</div>
-</div>
-
-</div>
-
-<!--Section 7-->
-<div class="container-fluid section7">
-
-<div class="container-fluid p-5 section" id="section7">
-<div class="container">
-	<div class="row titlenum" id="titlenum7">
-		<h1 class="display-1 text-center">07</h1>
-	</div>
-	<div class="row title" id="title7">
-		<h1 class="p-5 m-auto display-5"><span><mark>Template 11</mark></span></h1>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5 descript">
-<div class="container">
-	<h1 class="display-5 my-3 text-center"><mark>Heading 1</mark></h1>
-</div>
-<div class="row m-auto p-4">
-	<div class="col-lg-3">
-		<h2 class="p-3"><mark>Heading 2</mark></h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus. dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus.
-		</p>
-	</div>
-	<div class="col-lg-9">
-		<h2 class="p-3 text-right"><span><i class="far fa-hand-point-down p-3"></i></span>Heading 2
-		</h2>
-
-	</div>
-</div>
-<div class="row">
-	<div class="container col-lg-12 text-center my-3 py-5">
-		<h2><mark>Heading 1</mark></h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed vulputate odio ut enim blandit. Tincidunt lobortis feugiat vivamus at augue. Neque volutpat ac tincidunt vitae semper quis lectus. Mauris pellentesque pulvinar pellentesque habitant. Nibh ipsum consequat nisl vel. Justo donec enim diam vulputate. Nec sagittis aliquam malesuada bibendum arcu. Ultrices eros in cursus turpis. Ac placerat vestibulum lectus mauris ultrices eros in.
-		</p>
-	</div>
-</div>
-</div>
-
-<div class="container-fluid p-5" id="showcaseparent">
-<div class="container">
-	<h1 class="display-5" id="tsheading" style="z-index: 1;">
-		<mark>Template 11</mark>
-	</h1>
-</div>
-
-<div class="container showcase">
-	<div class="mobileimg">
-		<img src="css/img/temp11mobile.png" class="img-fluid">
+		<button class="btn btn-lg btn-outline-danger" id="openbtn">Music Controls</button>
+		<button class="btn btn-lg btn-outline-danger" id="closebtn">Close</button>
+		<br>
+		<iframe id="bgmusic" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/934412314&color=%23ff0000&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 	</div>
 
-	<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="css/img/temp11" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp11-1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp11-2.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp11-3.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp11-5.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp11" class="d-block w-100 img-fluid" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="css/img/temp11-1.png" class="d-block w-100 img-fluid" alt="...">
-			</div>
-		</div>
-	</div>
+	<div ng-include="'includes/footer.html'"></div>
 
-	<div class=" ipadimg">
-		<img src="css/img/temp11ipad.png" class="img-fluid">
-	</div>
-</div>
-</div>
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/script.js">
+	</script>
 
-<div class="container-fluid backToTop">
-<div class="container">
-	<a href="#hero">
-		<i class="far fa-arrow-alt-circle-up">
-		</i>
-		<h3 class="p-3"><mark>Back to Top</mark></h3>
-	</a>
-</div>
-</div>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 
-</div>
-
-<!--Music Player-->
-<div class="container">
-<button class="btn btn-lg btn-outline-danger" id="openbtn">Music Controls</button>
-<button class="btn btn-lg btn-outline-danger" id="closebtn">Close</button>
-<br>
-<iframe id="bgmusic" scrolling="no" frameborder="no" allow="" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/934412314&color=%23ff0000&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-</div>
-
-<!--More Projects-->
-<div class="container-fluid morepjs">
-<div class="container">
-	<h3>All Projects</h3>
-	<div class="row">
-		<div class="col-md">
-			<ul type="none">
-				<a href="https://helvin159.github.io/UFR/" target="_blank">
-					<li>UFR</li>
-				</a>
-				<a href="https://helvin159.github.io/ManiacInk/" target="_blank">
-					<li>Maniac Ink</li>
-				</a>
-				<a href="https://helvin159.github.io/Lifestyle/" target="_blank">
-					<li>Lifestyle</li>
-				</a>
-				<a href="">
-					<li>Perfect Tax</li>
-				</a>
-			</ul>
-		</div>
-		<div class="col-md">
-			<ul type="none">
-				<a href="https://helvin159.github.io/Template-1/" target="_blank">
-					<li>Template 1</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-2/" target="_blank">
-					<li>Template 2</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-3/" target="_blank">
-					<li>Template 3</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-4/" target="_blank">
-					<li>Template 4</li>
-				</a>
-			</ul>
-		</div>
-		<div class="col-md">
-			<ul type="none">
-				<a href="https://helvin159.github.io/Template-5/" target="_blank">
-					<li>Template 5</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-6/" target="_blank">
-					<li>Template 6</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-7/" target="_blank">
-					<li>Template 7</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-8/" target="_blank">
-					<li>Template 8</li>
-				</a>
-			</ul>
-		</div>
-		<div class="col-md">
-			<ul type="none">
-				<a href="https://helvin159.github.io/Template-9/" target="_blank">
-					<li>Template 9</li>
-				</a>
-				<a href="https://helvin159.github.io/Temp10/" target="_blank">
-					<li>Template 10</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-11/" target="_blank">
-					<li>Template 11</li>
-				</a>
-				<a href="https://helvin159.github.io/Template-12/" target="_blank">
-					<li>Template 12</li>
-				</a>
-			</ul>
-		</div>
-	</div>
-</div>
-</div>
-
-<!--Footer-->
-<footer class="container-fluid my-4 p-3">
-<div class="row">
-	<div class="col-lg-3 m-auto">
-		<h5 class="text-center"><mark>Mr. Rymer</mark></h5>
-	</div>
-	<div class="col-lg-9">
-		<ul>
-			<a href="index.html">
-				<li>Home</li>
-			</a>
-			<a href="about.html">
-				<li>About</li>
-			</a>
-				<li>
-					<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
-
-				</li>
-			<a href="https://github.com/Helvin159" target="_blank">
-				<li><i class="fab fa-github"></i></li>
-			</a>
-			<a href="https://www.instagram.com/mrrymernyc/" target="_blank">
-				<li><i class="fab fa-instagram"></i></li>
-			</a>
-			<a href="https://www.linkedin.com/in/helvinrymer/" target="_blank">
-				<li><i class="fab fa-linkedin"></i></li>
-			</a>
-			<a href="https://www.facebook.com/Helvin159" target="_blank">
-				<li><i class="fab fa-facebook"></i></li>
-			</a>
-			<a href="assets/pdf/Resume.pdf" target="_blank">
-				<li><i class="fas fa-file-pdf"></i></li>
-			</a>
-		</ul>
-	</div>
-</div>
-</footer>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered" role="document">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h5 class="modal-title" id="exampleModalCenterTitle"><mark style="color:#fff; background-color:red; border-radius: 5px;">Contact Me!</mark></h5>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-		</div>
-		<div class="modal-body">
-			<!--Form-->
-			<form class="text-center" id="fm" netlify>
-				<label class="text-left">
-					<input class="my-1" type="text" name="fName" placeholder="Full Name" id="fName">
-				</label>
-				<br>
-				<label class="text-left">
-					<input class="my-1" type="email" name="email" placeholder="Email" id="email">
-				</label>
-				<br>
-				<label class="text-left">
-					<input class="my-1" type="text" name="userWebsite" placeholder="Website (If any...)" id="userWebsite">
-				</label>
-				<br>
-				<label class="text-left">
-					How did you hear about me?
-					<br>
-					<select>
-						<option>- -</option>
-						<option>Referral</option>
-						<option>Social Media</option>
-						<option>Youtube</option>
-						<option>Newsletter</option>
-					<option>Freelancer.com</option>
-						<option>UpWork.com</option>
-						<option>Internet Search</option>
-					</select>
-				</label>
-				<br>
-				<label class="text-left">
-					Questions or Requests?
-					<br>
-					<textarea placeholder="Questions..."></textarea>
-				</label>
-				<br>
-				<label>
-					<input class="btn btn-sm btn-dark" type="submit" id="formSubmitBtn" style="font-family: 'Permanent Marker', cursive;">
-				</label>
-			</form>
-		</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		</div>
-	</div>
-</div>
-</div>
-
-
-<!-- Optional JavaScript -->
-
-<!--JQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/script.js"></script>
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body></html>
+</html>
