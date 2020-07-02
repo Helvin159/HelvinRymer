@@ -28,7 +28,7 @@
 					<h2 class="text-right livesite"><span><i class="far fa-hand-point-down p-3"></i></span>Live Site
 					</h2>
 					
-					<iframe src="https://helvin159.github.io/ManiacInk/"></iframe>
+					<iframe src="https://maniacink.com/"></iframe>
 			</div>
 			<div class="container backToTop">
 			<a href="https://helvinrymer.com/maniacink" target="_blank">
