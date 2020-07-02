@@ -7,6 +7,12 @@ $source = $_GET['source'];
 $comment = $_GET['comment'];
 
 
+if ($email == null && $name == null){
+
+	header('location:index.html');
+} else if($email == "tetakhiling2015@mail.ru" || $email == "riyaadkins.sc.1045423808@supersendme.org" || $email == "noreply@papawp6211.xyz" || $email == "annamaster1992211@gmail.com" || $email == "aliciashort.gm.1326626298@gcheck.xyz" || $email == "noreply@get-more-leads-now.com" || $email == "no-reply@hilkom-digital.de" || $email == "helvinrymernewyork.com@domstat.su" || $email == "maiilerinvestorsx@gmx.com" || $email == "helvinrymer.com@domstat.su" || $email == "helvinrymer.com@domstat.su"){ 
+header('location:index.html');
+} else {
 $connection = mysqli_connect('localhost','helvin','dora0411','mrrymer');
 // $connection = mysqli_connect('localhost','root','root','MrRymer');
 $query = "insert into contact(name, email, website, source, comment) values('$name', '$email', '$url', '$source', '$comment');";
@@ -42,4 +48,6 @@ mail($to,$subject,$message,$headers);
 mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 
 header('location:index.html');
+}
+
 ?>
