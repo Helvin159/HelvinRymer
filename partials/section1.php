@@ -7,7 +7,7 @@
 				<h1 class="display-1 text-left">01</h1>
 			</div>
 			<div class="row title" id="title1">
-				<h1 class="display-4 m-auto p-5"><span><mark>ESports App</mark></span></h1>
+				<h1 class="display-4 m-auto p-5"><span><mark>F1-eSports</mark></span></h1>
 			</div>
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 		<div class="container-fluid p-5" id="showcaseparent">
 			<div class="container showcase">
 				<h1 class="display-5" id="tsheading" style="z-index: 1;">
-					<mark>ESports App</mark>
+					<mark>F1-eSports</mark>
 				</h1>
 				<div class="mobileimg">
 					<img src="css/esports/esportsiphoneplus.png" class="img-fluid">
