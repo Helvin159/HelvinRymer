@@ -31,7 +31,7 @@
 					<iframe src="https://maniacink.com/"></iframe>
 			</div>
 			<div class="container backToTop">
-			<a href="https://helvinrymer.com/maniacink" target="_blank">
+			<a href="https://maniacink.com" target="_blank">
 					<i class="far fa-eye">
 					</i>
 					<h3 class="p-3 mt-3"><mark>View Live Site</mark></h3>

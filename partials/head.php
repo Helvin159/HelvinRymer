@@ -1,7 +1,7 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="Keywords" content="helvin, rymer, helvin rymer, developer, web developer, full stack, developer, html, css, javascript, php, mysql, angular, bootstrap, NYC developer, dev">
+	<meta name="Keywords" content="helvin, rymer, helvin rymer, developer, web developer, full stack, developer, html, css, javascript, php, mysql, angular, bootstrap, NYC developer, wordpress, dev">
 	<meta name="Description" content="Full Stack Web Developer">
 	<meta name="Author" content="Helvin Rymer">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

@@ -15,7 +15,6 @@ session_start();
 		<h5 class="p-3"><mark style="background-color: red;border-radius: 10px; color: #F2F5EA;">Mr. Rymer</mark></h5>
 		<form class="form-inline">
 			<a href="index.php"><button class="btn btn-sm btn-outline-secondary mx-1" type="button">Home</button></a>
-			<a href="/wp"><button class="btn btn-sm btn-outline-secondary mx-1" type="button">Blog</button></a>
 			<a href="about.php"><button class="btn btn-outline-danger mx-1 active" type="button">About</button></a>
 			<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
 		</form>
@@ -30,7 +29,6 @@ session_start();
 		<div class="collapse navbar-collapse mt-5 float-middle" id="navbarNavAltMarkup">
 			<div class="navbar-nav text-center">
 				<a class="nav-item nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="/wp">Blog </a>
 				<a class="nav-item nav-link active" href="about.php">About</a>
 				<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
 
@@ -53,11 +51,11 @@ session_start();
 						</h4>
 						<br>
 						<h4 id="thirdh3">
-							<span><mark>HTML5 &amp; CSS3</mark></span>
+							<span><mark>HTML5 &amp; WordPress</mark></span>
 						</h4>
 						<br>
 						<h4 id="fourthh3">
-							<span><mark>JavaScript &amp; AngularJS</mark></span>
+							<span><mark>JavaScript &amp; CSS3</mark></span>
 						</h4>
 						<br>
 						<h4 id="fourthh3">
@@ -172,62 +170,62 @@ session_start();
 		<div class="container p-4 skills">
 			<div class="container">
 				<h5>PHP</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>MySQL</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>JavaScript</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>Node</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>ReactJS</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
-				<h5>AngularJS</h5>
-				<div class="progress my-2">
-					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				<h5>WordPress</h5>
+				<div class="progress my-4">
+					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>JQuery</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>Bootstrap</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 
 			<div class="container">
 				<h5>CSS</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
 				<h5>HTML5</h5>
-				<div class="progress my-2">
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>

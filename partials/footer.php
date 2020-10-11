@@ -8,30 +8,17 @@
 					<a href="https://helvinrymer.com/esportsapp/" target="_blank">
 						<li>Esports App</li>
 					</a>
-					<a href="https://helvinrymer.com/maniacink/" target="_blank">
+					<a href="https://helvinrymer.com/pages/rymeracademy/" target="_blank">
+						<li>Rymer Academy</li>
+					</a>
+					<a href="https://maniacink.com" target="_blank">
 						<li>Maniac Ink</li>
 					</a>
-					<a href="https://helvinrymer.com/tonershouse" target="_blank">
-						<li>Tonershouse</li>
-					</a>
-					<a href="https://perfecttaxnyc.com" target="_blank">
-						<li>Perfect Tax</li>
-					</a>
-				</ul>
-			</div>
-			<div class="col-md">
-				<ul type="none">
 					<a href="https://helvinrymer.com/lifestyle" target="_blank">
 						<li>Lifestyle Page</li>
 					</a>
-					<a href="https://helvin159.github.io/Template-2/" target="_blank">
-						<li>Template 2</li>
-					</a>
-					<a href="https://helvin159.github.io/Template-3/" target="_blank">
-						<li>Template 3</li>
-					</a>
-					<a href="https://helvin159.github.io/Template-4/" target="_blank">
-						<li>Template 4</li>
+					<a href="https://perfecttaxnyc.com" target="_blank">
+						<li>Perfect Tax</li>
 					</a>
 				</ul>
 			</div>

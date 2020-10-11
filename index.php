@@ -31,11 +31,11 @@ session_start();
 						</h4>
 						<br>
 						<h4 id="thirdh3">
-							<span><mark>HTML5 &amp; CSS3</mark></span>
+							<span><mark>HTML5 &amp; WordPress</mark></span>
 						</h4>
 						<br>
 						<h4 id="fourthh3">
-							<span><mark>JavaScript &amp; AngularJS</mark></span>
+							<span><mark>JavaScript &amp; CSS3</mark></span>
 						</h4>
 						<br>
 						<h4 id="fourthh3">
@@ -125,17 +125,9 @@ session_start();
 
 	<?php
 	require_once('partials/section1.php');
-	?>
-	<?php
 	require_once('partials/section2.php');
-	?>
-	<?php
 	require_once('partials/section3.php');
-	?>
-	<?php
 	require_once('partials/section4.php');
-	?>
-	<?php
 	require_once('partials/section5.php');
 	?>
 
@@ -164,9 +156,6 @@ session_start();
 
 	<?php
 	require_once('partials/modal.php');
-	?>
-
-	<?php
 	require_once('partials/footer.php');
 	?>
 
