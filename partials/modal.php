@@ -12,11 +12,11 @@
 			<!--Form-->
 			<form class="text-center" id="fm" method="GET" action="contact.php">
 				<label class="text-left">
-					<input class="my-1" type="text" name="fName" placeholder="Full Name" id="fName">
+					<input class="my-1" type="text" name="fName" placeholder="Full Name" id="fName" required>
 				</label>
 				<br>
 				<label class="text-left">
-					<input class="my-1" type="email" name="email" placeholder="Email" id="email">
+					<input class="my-1" type="email" name="email" placeholder="Email" id="email" required>
 				</label>
 				<br>
 				<label class="text-left">

@@ -35,10 +35,10 @@
 					<h2 class="text-right livesite"><span><i class="far fa-hand-point-down p-3"></i></span>Live Site
 					</h2>
 					
-					<iframe src="https://helvinrymer.com/nblackburn"></iframe>
+					<iframe src="https://helvinrymer.com/pages/nblackburn"></iframe>
 			</div>
 			<div class="container backToTop">
-			<a href="https://helvinrymer.com/nblackburn" target="_blank">
+			<a href="https://helvinrymer.com/pages/nblackburn" target="_blank">
 					<i class="far fa-eye">
 					</i>
 					<h3 class="p-3 mt-3"><mark>View Live Site</mark></h3>
