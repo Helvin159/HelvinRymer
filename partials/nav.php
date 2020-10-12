@@ -2,8 +2,8 @@
 <nav class="navbar navbar-dark position-fixed" style="background-color: rgba(0,0,0,0);" id="primarynav">
 	<h5 class="p-3"><mark style="background-color: red;border-radius: 10px; color: #F2F5EA;">Mr. Rymer</mark></h5>
 	<form class="form-inline">
-		<a href="index.php"><button class="btn btn-outline-danger mx-1 active" type="button" id="homebtn">Home</button></a>
-		<a href="about.php"><button class="btn btn-sm btn-outline-secondary mx-1" type="button" id="aboutbtn">About</button></a>
+		<a href="index.php"><button class=" <?php if($_SERVER['REQUEST_URI'] == '/index.php'){echo 'btn btn-outline-danger mx-1 active';} else { echo 'btn btn-sm btn-outline-secondary mx-1';} ?>" type="button" id="homebtn">Home</button></a>
+		<a href="about.php"><button class="<?php if($_SERVER['REQUEST_URI'] == '/about.php'){echo 'btn btn-outline-danger mx-1 active';} else{ echo 'btn btn-sm btn-outline-secondary mx-1';}?>" type="button" id="aboutbtn">About</button></a>
 		<button class="btn btn-sm btn-outline-danger mx-1" type="button" id="aboutbtn" data-toggle="modal" data-target="#exampleModalCenter">Contact</button>
 	</form>
 </nav>
