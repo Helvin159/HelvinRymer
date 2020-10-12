@@ -57,7 +57,7 @@
 					<img src="css/esports/esportsipad2.png" class="img-fluid"></div>
 			</div>
 			<div class="container backToTop">
-			<a href="https://helvinrymer.com/esportsapp" target="_blank">
+			<a href="https://mrrymer.com/esportsapp" target="_blank">
 					<i class="far fa-eye">
 					</i>
 					<h3 class="p-3 mt-3"><mark>View Live Site</mark></h3>
