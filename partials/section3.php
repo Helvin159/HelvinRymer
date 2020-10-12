@@ -18,6 +18,7 @@
 				This site has been interesting to work on. Currently it's just an index page with several connections to tables on a database. I was inspired to build this site from a store in the Bronx, "The Bronx Native", an interesting store in my home city. An energetic space featuring events by artists based in the city.
 			</p>
 		</div>
+		
 
 		<div class="container-fluid p-5" id="showcaseparent">
 
