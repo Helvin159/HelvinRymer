@@ -13,8 +13,12 @@ if ($email == null){
 } else if($email == "tetakhiling2015@mail.ru" || $email == "riyaadkins.sc.1045423808@supersendme.org" || $email == "noreply@papawp6211.xyz" || $email == "annamaster1992211@gmail.com" || $email == "aliciashort.gm.1326626298@gcheck.xyz" || $email == "noreply@get-more-leads-now.com" || $email == "no-reply@hilkom-digital.de" || $email == "helvinrymernewyork.com@domstat.su" || $email == "maiilerinvestorsx@gmx.com" || $email == "helvinrymer.com@domstat.su" || $email == "helvinrymer.com@domstat.su"){ 
 header('location:index.html');
 } else {
-$connection = mysqli_connect('localhost','helvin','dora0411','mrrymer');
-// $connection = mysqli_connect('localhost','root','root','MrRymer');
+
+	if(STRSTR($_SERVER('SERVER_URI'), 'mrrymer.com')){
+		$connection = mysqli_connect('localhost','helvin','dora0411','mrrymer');
+	} else{
+		$connection = mysqli_connect('localhost','root','root','MrRymer');
+	}
 $query = "insert into contact(name, email, website, source, comment) values('$name', '$email', '$url', '$source', '$comment');";
 
 mysqli_query($connection,$query);
