@@ -28,26 +28,26 @@
 					</h1>
 				</div>
 				<div class="mobileimg">
-					<img src="css/lifestyle/iphone6.png" class="img-fluid">
+					<img src="css/Lifestyle/iphone6.png" class="img-fluid">
 				</div>
 				<div id="carouselExampleSlidesOnly" class="carousel slide caro" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="css/lifestyle/1.jpg" class="d-block w-100 img-fluid" alt="...">
+							<img src="css/Lifestyle/1.jpg" class="d-block w-100 img-fluid" alt="...">
 						</div>
 						<div class="carousel-item">
-							<img src="css/lifestyle/2.jpg" class="d-block w-100 img-fluid" alt="...">
+							<img src="css/Lifestyle/2.jpg" class="d-block w-100 img-fluid" alt="...">
 						</div>
 						<div class="carousel-item">
-							<img src="css/lifestyle/3.jpg" class="d-block w-100 img-fluid" alt="...">
+							<img src="css/Lifestyle/3.jpg" class="d-block w-100 img-fluid" alt="...">
 						</div>
 						<div class="carousel-item">
-							<img src="css/lifestyle/4.jpg" class="d-block w-100 img-fluid" alt="...">
+							<img src="css/Lifestyle/4.jpg" class="d-block w-100 img-fluid" alt="...">
 						</div>
 					</div>
 				</div>
 				<div class=" ipadimg">
-					<img src="css/lifestyle/ipad1.png" class="img-fluid">
+					<img src="css/Lifestyle/ipad1.png" class="img-fluid">
 				</div>
 			</div>
 			<div class="container backToTop">
