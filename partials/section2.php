@@ -6,7 +6,7 @@
 					<h1 class="display-1 text-left">02</h1>
 				</div>
 				<div class="row title" id="title2">
-					<h1 class="p-5 m-auto display-4"><span><mark>Maniac Ink</mark></span></h1>
+					<h1 class="p-5 m-auto "><span><mark>Maniac Ink</mark></span></h1>
 				</div>
 			</div>
 		</div>
