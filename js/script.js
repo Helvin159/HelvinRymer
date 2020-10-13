@@ -357,7 +357,7 @@ $(document).ready(function () {
     $("#sectionOne").css("height", "70vh");
     $("#sectionOne").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/esports.png)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/1.png)"
     );
     $("#sectionOne").css("background-size", "100vw 100vh !important");
     $("#sectionOne").css("background-attachment", "scroll");
@@ -385,7 +385,7 @@ $(document).ready(function () {
     $("#section3").css("height", "70vh");
     $("#section3").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/lifestyle/2.jpg)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/Lifestyle/2.jpg)"
     );
     $("#section3").css("background-size", "100vw 100vh !important");
     $("#section3").css("background-attachment", "scroll");
@@ -439,7 +439,7 @@ $(document).ready(function () {
     $("#sectionOne").css("height", "70vh");
     $("#sectionOne").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/esports.png)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/1.png)"
     );
     $("#sectionOne").css("background-size", "100vw 100vh !important");
     $("#sectionOne").css("background-attachment", "scroll");
@@ -467,7 +467,7 @@ $(document).ready(function () {
     $("#section3").css("height", "70vh");
     $("#section3").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/lifestyle/2.jpg)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/Lifestyle/2.jpg)"
     );
     $("#section3").css("background-size", "100vw 100vh !important");
     $("#section3").css("background-attachment", "scroll");
@@ -494,7 +494,7 @@ $(document).ready(function () {
     $("#section5").css("height", "70vh");
     $("#section5").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/ptax/ptax.png)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/selffit/3.png)"
     );
     $("#section5").css("background-size", "100vw 100vh !important");
     $("#section5").css("background-attachment", "scroll");
