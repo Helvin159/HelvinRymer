@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md">
 				<ul type="none">
-					<a href="https://mrrymer.com/esportsapp/" target="_blank">
+					<a href="https://mrrymer.com/pages/esportsapp/" target="_blank">
 						<li>Esports App</li>
 					</a>
 					<a href="https://mrrymer.com/pages/rymeracademy/" target="_blank">
@@ -14,7 +14,7 @@
 					<a href="https://maniacink.com" target="_blank">
 						<li>Maniac Ink</li>
 					</a>
-					<a href="https://mrrymer.com/lifestyle" target="_blank">
+					<a href="https://mrrymer.com/pages/lifestyle" target="_blank">
 						<li>Lifestyle Page</li>
 					</a>
 					<a href="https://perfecttaxnyc.com" target="_blank">
