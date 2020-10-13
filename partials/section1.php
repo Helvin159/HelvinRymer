@@ -57,7 +57,7 @@
 					<img src="assets/rymeracademy/ipad.png" class="img-fluid"></div>
 			</div>
 			<div class="container backToTop">
-			<a href="https://mrrymer.com/rymeracademy" target="_blank">
+			<a href="https://mrrymer.com/pages/rymeracademy" target="_blank">
 					<i class="far fa-eye">
 					</i>
 					<h3 class="p-3 mt-3"><mark>View Live Site</mark></h3>
