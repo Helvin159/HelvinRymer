@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#herorow1").mouseover(function () {
       $(".heroimg").css(
         "transform",
-        "rotateY(180deg) translateX(250px) translateY(-100px)"
+        "rotateY(180deg) translateX(310px) translateY(-100px)"
       );
       $(".heroimg").css("transition", "1.3s ease-in-out");
       $(".heroitem").show();
