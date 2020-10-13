@@ -443,7 +443,7 @@ $(document).ready(function () {
     );
     $("#sectionOne").css("background-size", "100vw 100vh !important");
     $("#sectionOne").css("background-attachment", "scroll");
-    $("#sectionOne").css("background-position", "center center");
+    $("#sectionOne").css("background-position", "top center");
     $("#title1").css("animation", "slidein 2s 1");
     $("#titlenum1").css("animation", "slidein2 2s 1");
 
