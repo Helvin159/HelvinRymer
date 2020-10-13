@@ -78,7 +78,7 @@ session_start();
 				<h3><mark>Featured</mark></h3>
 				<ul>
 					<a href="#section1">
-						<li>Esports Webapp</li>
+						<li>Rymer Academy</li>
 					</a>
 					<a href="#section2">
 						<li>Maniac Ink</li>
@@ -90,7 +90,7 @@ session_start();
 						<li>N. Blackburn</li>
 					</a>
 					<a href="#section5">
-						<li>Perfect Tax</li>
+						<li>Self Fit</li>
 					</a>
 					<li>
 						<a href="https://github.com/Helvin159" target="_blank">
