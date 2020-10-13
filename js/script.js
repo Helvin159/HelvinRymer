@@ -171,7 +171,7 @@ $(document).ready(function () {
         $("#section5").css("opacity", 1);
         $("#section5").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/ptax/ptax.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/selffit/3.png)"
         );
         $("#section5").css("background-size", "cover");
         $("#section5").css("background-attachment", "fixed");
@@ -305,7 +305,7 @@ $(document).ready(function () {
         $("#section5").css("opacity", 1);
         $("#section5").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/ptax/ptax.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/selffit/3.png)"
         );
         $("#section5").css("background-size", "cover");
         $("#section5").css("background-attachment", "scroll");
