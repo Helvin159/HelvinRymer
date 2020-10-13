@@ -92,7 +92,7 @@ $(document).ready(function () {
         $("#section1").css("opacity", 1);
         $("#section1").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/esports/esports.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/1.png)"
         );
         $("#section1").css("background-size", "cover");
         $("#section1").css("background-attachment", "fixed");
