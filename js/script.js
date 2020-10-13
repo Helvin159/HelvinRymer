@@ -111,7 +111,7 @@ $(document).ready(function () {
         $("#section2").css("opacity", 1);
         $("#section2").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/maniac_art/maniacartHome.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/maniacink/1.png)"
         );
         $("#section2").css("background-size", "cover");
         $("#section2").css("background-attachment", "fixed");
@@ -245,7 +245,7 @@ $(document).ready(function () {
         $("#section2").css("opacity", 1);
         $("#section2").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/maniac_art/maniacartHome.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/maniacink/1.png)"
         );
         $("#section2").css("background-size", "cover");
         $("#section2").css("background-attachment", "scroll");
@@ -371,7 +371,7 @@ $(document).ready(function () {
     $("#section2").css("height", "70vh");
     $("#section2").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/maniac_art/maniacartHome.jpg)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/maniacink/1.png)"
     );
     $("#section2").css("background-size", "100vw 100vh !important");
     $("#section2").css("background-attachment", "scroll");
@@ -453,7 +453,7 @@ $(document).ready(function () {
     $("#section2").css("height", "70vh");
     $("#section2").css(
       "background",
-      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/maniac_art/maniacartHome.jpg)"
+      "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/maniacink/1.png)"
     );
     $("#section2").css("background-size", "100vw 100vh !important");
     $("#section2").css("background-attachment", "scroll");
