@@ -41,7 +41,7 @@ $(document).ready(function () {
     $("#herorow1").mouseover(function () {
       $(".heroimg").css(
         "transform",
-        "rotateY(180deg) translateX(370px) translateY(-100px)"
+        "rotateY(180deg) translateX(250px) translateY(-100px)"
       );
       $(".heroimg").css("transition", "1.3s ease-in-out");
       $(".heroitem").show();
@@ -50,7 +50,7 @@ $(document).ready(function () {
     });
 
     $(".heroitem").mouseover(function () {
-      $(".heroimg").css("transform", "translateX(-300px) translateY(-130px)");
+      $(".heroimg").css("transform", "translateX(-250px) translateY(-100px)");
     });
 
     $(".heroitem").mouseout(function () {
@@ -87,20 +87,19 @@ $(document).ready(function () {
     $(document).scroll(function () {
       var y = $(this).scrollTop();
       if (y > 300) {
-        $("#section1").css("transition", "1s ease-in");
-        $("#section1").css("transition", ".5s ease-in-out");
-        $("#section1").css("opacity", 1);
-        $("#section1").css(
+        $("#sectionOne").css("transition", "1s ease-in");
+        $("#sectionOne").css("transition", ".5s ease-in-out");
+        $("#sectionOne").css("opacity", 1);
+        $("#sectionOne").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/1.png)"
-        );
-        $("#section1").css("background-size", "cover");
-        $("#section1").css("background-attachment", "fixed");
-        $("#section1").css("background-position", "center center");
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)), url(assets/rymeracademy/1.png)");
+        $("#sectionOne").css("background-size", "cover");
+        $("#sectionOne").css("background-attachment", "fixed");
+        $("#sectionOne").css("background-position", "center center");
         $("#title1").css("animation", "slidein 2s 1");
         $("#titlenum1").css("animation", "slidein2 2s 1");
       } else {
-        $("#section1").css("opacity", 0);
+        $("#sectionOne").css("opacity", 0);
       }
     });
 
@@ -221,20 +220,20 @@ $(document).ready(function () {
     $(document).scroll(function () {
       var y = $(this).scrollTop();
       if (y > 300) {
-        $("#section1").css("transition", "1s ease-in");
-        $("#section1").css("transition", ".5s ease-in-out");
-        $("#section1").css("opacity", 1);
-        $("#section1").css(
+        $("#sectionOne").css("transition", "1s ease-in");
+        $("#sectionOne").css("transition", ".5s ease-in-out");
+        $("#sectionOne").css("opacity", 1);
+        $("#sectionOne").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/esports/esports.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(assets/rymeracademy/1.png)"
         );
-        $("#section1").css("background-size", "cover");
-        $("#section1").css("background-attachment", "scroll");
-        $("#section1").css("background-position", "center center");
+        $("#sectionOne").css("background-size", "cover");
+        $("#sectionOne").css("background-attachment", "scroll");
+        $("#sectionOne").css("background-position", "center center");
         $("#title1").css("animation", "slidein 2s 1");
         $("#titlenum1").css("animation", "slidein2 2s 1");
       } else {
-        $("#section1").css("opacity", 0);
+        $("#sectionOne").css("opacity", 0);
       }
     });
 
@@ -352,17 +351,17 @@ $(document).ready(function () {
     });
   } else if ($(window).width() < 1024 && $(window).width() >= 768) {
     //Section_1
-    $("#section1").css("transition", "1s ease-in");
-    $("#section1").css("transition", ".5s ease-in-out");
-    $("#section1").css("opacity", 1);
-    $("#section1").css("height", "70vh");
-    $("#section1").css(
+    $("#sectionOne").css("transition", "1s ease-in");
+    $("#sectionOne").css("transition", ".5s ease-in-out");
+    $("#sectionOne").css("opacity", 1);
+    $("#sectionOne").css("height", "70vh");
+    $("#sectionOne").css(
       "background",
       "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/esports/esports.png)"
     );
-    $("#section1").css("background-size", "100vw 100vh !important");
-    $("#section1").css("background-attachment", "scroll");
-    $("#section1").css("background-position", "center center");
+    $("#sectionOne").css("background-size", "100vw 100vh !important");
+    $("#sectionOne").css("background-attachment", "scroll");
+    $("#sectionOne").css("background-position", "center center");
     $("#title1").css("animation", "slidein 2s 1");
     $("#titlenum1").css("animation", "slidein2 2s 1");
 
@@ -434,17 +433,17 @@ $(document).ready(function () {
     $("#aboutme").css("background-attachment", "scroll");
   } else if ($(window).width() < 768 && $(window).width() >= 375) {
     //Section_1
-    $("#section1").css("transition", "1s ease-in");
-    $("#section1").css("transition", ".5s ease-in-out");
-    $("#section1").css("opacity", 1);
-    $("#section1").css("height", "70vh");
-    $("#section1").css(
+    $("#sectionOne").css("transition", "1s ease-in");
+    $("#sectionOne").css("transition", ".5s ease-in-out");
+    $("#sectionOne").css("opacity", 1);
+    $("#sectionOne").css("height", "70vh");
+    $("#sectionOne").css(
       "background",
       "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/esports/esports.png)"
     );
-    $("#section1").css("background-size", "100vw 100vh !important");
-    $("#section1").css("background-attachment", "scroll");
-    $("#section1").css("background-position", "center center");
+    $("#sectionOne").css("background-size", "100vw 100vh !important");
+    $("#sectionOne").css("background-attachment", "scroll");
+    $("#sectionOne").css("background-position", "center center");
     $("#title1").css("animation", "slidein 2s 1");
     $("#titlenum1").css("animation", "slidein2 2s 1");
 

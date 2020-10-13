@@ -1,7 +1,7 @@
 	<!--Section 1-->
 	<div class="container-fluid section1">
 
-		<div class="container-fluid p-5 section" id="section1">
+		<div class="container-fluid p-5 section" id="sectionOne">
 			<div class="container">
 			<div class="row titlenum" id="titlenum1">
 				<h1 class="display-1 text-left">01</h1>
