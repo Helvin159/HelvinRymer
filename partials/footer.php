@@ -17,6 +17,9 @@
 					<a href="https://mrrymer.com/pages/lifestyle" target="_blank">
 						<li>Lifestyle Page</li>
 					</a>
+					<a href="https://selffitdr.com" target="_blank">
+						<li>Self Fit</li>
+					</a>
 					<a href="https://perfecttaxnyc.com" target="_blank">
 						<li>Perfect Tax</li>
 					</a>
