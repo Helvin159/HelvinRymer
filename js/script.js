@@ -265,7 +265,7 @@ $(document).ready(function () {
         $("#section3").css("opacity", 1);
         $("#section3").css(
           "background",
-          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/lifestyle/2.jpg)"
+          "linear-gradient(0deg, rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(css/Lifestyle/2.jpg)"
         );
         $("#section3").css("background-size", "cover");
         $("#section3").css("background-attachment", "scroll");
