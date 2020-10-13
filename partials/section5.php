@@ -7,7 +7,7 @@
 					<h1 class="display-1 text-left">05</h1>
 				</div>
 				<div class="row title" id="title5">
-					<h1 class="p-5 m-auto display-5"><span><mark>Self Fit</mark></span></h1>
+					<h1 class="p-5 m-auto "><span><mark>Self Fit</mark></span></h1>
 				</div>
 			</div>
 		</div>

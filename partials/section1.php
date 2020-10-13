@@ -7,7 +7,7 @@
 				<h1 class="display-1 text-left">01</h1>
 			</div>
 			<div class="row title" id="title1">
-				<h1 class="display-4 m-auto p-5"><span><mark>Rymer Academy</mark></span></h1>
+				<h1 class=" m-auto p-5"><span><mark>Rymer Academy</mark></span></h1>
 			</div>
 			</div>
 		</div>
