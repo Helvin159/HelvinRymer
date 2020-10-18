@@ -165,7 +165,7 @@ session_start();
 			<div class="container">
 				<h5>Node</h5>
 				<div class="progress my-4">
-					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
 			<div class="container">
