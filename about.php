@@ -177,6 +177,12 @@ session_start();
 			<div class="container">
 				<h5>WordPress</h5>
 				<div class="progress my-4">
+					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="container">
+				<h5>WooCommerce</h5>
+				<div class="progress my-4">
 					<div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
